@@ -1,0 +1,5366 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="BAOMOI.COM" />
+    <meta name="msvalidate.01" content="94801D71438B64887D4670AB4661921E" />
+    <meta charSet="utf-8" />
+    <meta name="robots" content="noarchive" />
+    <meta name="googlebot" content="noarchive" />
+    <meta name="apple-itunes-app" content="app-id=651979466" />
+    <meta name="google-play-app" content="app-id=com.epi" />
+    <meta name="apple-mobile-web-app-title" content="Báo Mới" />
+    <meta name="application-name" content="Báo Mới" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="msapplication-TileImage" content="https://baomoi-static.zadn.vn/favicons/mstile-144x144.png" />
+    <meta name="msapplication-config" content="https://baomoi-static.zadn.vn/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="google-site-verification" content="VmslVkfbNFUAhjBYmq-AAt1yL7KsmwHCqUyWLgYipao" />
+    <link rel="apple-touch-icon" sizes="57x57"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-57x57-v1.0.1.png" />
+    <link rel="apple-touch-icon" sizes="60x60"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-60x60-v1.0.1.png" />
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-72x72-v1.0.1.png" />
+    <link rel="apple-touch-icon" sizes="76x76"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-76x76-v1.0.1.png" />
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-114x114-v1.0.1.png" />
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-120x120-v1.0.1.png" />
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="//baomoi-static.zadn.vn/favicons/apple-touch-icon-144x144-v1.0.1.png" />
+    <link rel="icon" type="image/png" href="//baomoi-static.zadn.vn/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="//baomoi-static.zadn.vn/favicons/android-chrome-192x192.png"
+        sizes="192x192" />
+    <link rel="icon" type="image/png" href="//baomoi-static.zadn.vn/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="//baomoi-static.zadn.vn/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="//baomoi-static.zadn.vn/favicons/favicon.ico" />
+    <link rel="dns-prefetch" href="https://log.baomoi.com" />
+    <link rel="dns-prefetch" href="https://api.baomoi.com" />
+    <link rel="dns-prefetch" href="https://baomoi-static.zadn.vn" />
+    <link rel="dns-prefetch" href="https://photo-baomoi.zadn.vn" />
+    <link rel="dns-prefetch" href="https://adtima-static.zadn.vn" />
+    <link rel="dns-prefetch" href="https://web.api.adtimaserver.vn" />
+    <link rel="dns-prefetch" href="https://adtima-media.zadn.vn" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://www.facebook.com" />
+    <link rel="dns-prefetch" href="https://www.googletagservices.com" />
+    <link rel="dns-prefetch" href="https://stc-sp.zadn.vn" />
+    <link rel="dns-prefetch" href="https://stc.za.zaloapp.com" />
+    <link rel="preload" href="https://baomoi-static.zadn.vn/web/styles/fonts/baomoi/2.0.2/baomoi-regular-2.0.2.woff2"
+        as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://baomoi-static.zadn.vn/web/styles/fonts/baomoi/2.0.2/baomoi-light-2.0.2.woff2"
+        as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web/styles/fonts/baomoi/2.0.2/baomoi-light-italic-2.0.2.woff2" as="font"
+        type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://baomoi-static.zadn.vn/web/styles/fonts/fontello/fontello-1.0.2.woff2" as="font"
+        type="font/woff2" />
+    <link rel="preload" href="https://baomoi-static.zadn.vn/web/styles/fonts/fontello/fontello-1.0.2.woff2" as="font"
+        type="font/woff2" />
+    <link rel="stylesheet" href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/public/fonts/icon-font/style.css"
+        type="text/css" />
+    <script>
+        window._BM = {};
+        function mobileDetect() {
+            var e =
+                /android|webos|iphone|ipad|ipod|blackberry|bb|playbook|iemobile|windows phone|kindle|silk|opera mini/i.test(
+                    navigator.userAgent.toLowerCase()
+                );
+            if (e)
+                if (
+                    window.location.hash &&
+                    'bm_web' === window.location.hash.replace('#', '')
+                ) {
+                    var o = new Date();
+                    o.setTime(o.getTime() + 864e5);
+                    var i = '; expires=' + o.toGMTString();
+                    document.cookie = 'bm_web=1' + i + '; path=/';
+                } else {
+                    for (
+                        var n = null,
+                        t = 'bm_web=',
+                        a = document.cookie.split(';'),
+                        l = 0;
+                        l < a.length;
+                        l++
+                    ) {
+                        for (var r = a[l]; ' ' === r.charAt(0);)
+                            r = r.substring(1, r.length);
+                        if (0 === r.indexOf(t)) {
+                            n = r.substring(t.length, r.length);
+                            break;
+                        }
+                    }
+                    return (
+                        (null === n || '1' !== n) &&
+                        (window.location = window.location.href.replace(
+                            'baomoi.com',
+                            'm.baomoi.com'
+                        ))
+                    );
+                }
+        }
+        mobileDetect();
+    </script>
+    <link rel="stylesheet" href="/fonts/text-font/2.0.2/styles.css" type="text/css" />
+    <script defer="" src="https://sp.zalo.me/plugins/sdk.js"></script>
+    <script defer="" src="https://stc-sp.zadn.vn/session-sdk/session-sdk.min.js"></script>
+    <script defer="" src="https://adtima-static.zascdn.me/resource/js/bm/web.220127.1.js"></script>
+    <meta charSet="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=1" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <title>Báo Mới - Tin tức nóng nhất, tin tức mới nhất cập nhật liên tục 24H - BAOMOI.COM</title>
+    <link rel="canonical" href="https://baomoi.com/" />
+    <link rel="alternate" href="https://m.baomoi.com/" />
+    <link rel="alternate" href="https://m.baomoi.com/" media="only screen and (max-width: 640px)" />
+    <meta name="keywords"
+        content="báo mới, baomoi, bao moi, tin tức, tin tuc, tổng hợp tin tức, cập nhật, báo điện tử, mới, nóng, nhanh, hot, Việt Nam, thế giới, biển đông, hà nội, tp hcm, sài gòn, xã hội, văn hóa, kinh tế, khoa học, công nghệ, thể thao, bóng đá, giải trí, pháp luật, giáo dục, sức khỏe,  ô tô, xe máy, nhà đất." />
+    <meta name="description"
+        content="Báo Mới - Trang tin tự động cập nhật các tin tức Việt Nam và thế giới từ các  báo và  trang tin điện tử hàng đầu" />
+    <meta property="fb:app_id" content="128990640458592" />
+    <meta property="og:title" content="Báo Mới - Tin tức nóng nhất, tin tức mới nhất cập nhật liên tục 24H" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://baomoi.com/" />
+    <meta property="og:image" content="https://baomoi-static.zadn.vn/web/styles/img/facebook-thumb.png" />
+    <meta property="og:image:width" content="560" />
+    <meta property="og:image:height" content="292" />
+    <meta property="og:description"
+        content="Báo Mới - Trang tin tự động cập nhật các tin tức Việt Nam và thế giới từ các  báo và  trang tin điện tử hàng đầu" />
+    <meta property="article:publisher" content="https://www.facebook.com/Baomoi" />
+    <meta property="article:section" />
+    <meta property="og:site_name" content="https://baomoi.com" />
+    <meta name="robots" content="noarchive" />
+    <meta name="googlebot" content="noarchive" />
+    <script
+        type="application/ld+json">{"name":"Báo Mới - Tin tức nóng nhất, tin tức mới nhất cập nhật liên tục 24H","alternateName":"Báo Mới - Trang tin tự động cập nhật các tin tức Việt Nam và thế giới từ các  báo và  trang tin điện tử hàng đầu","url":"https://baomoi.com/","@context":"http://schema.org","@type":"WebSite"}</script>
+    <meta name="next-head-count" content="23" />
+    <style data-href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/css/5f76b3d5e71a4440336c.css">
+        .bm_E {
+            max-width: 100%
+        }
+
+        .bm_E,
+        .bm_L {
+            position: relative
+        }
+
+        .bm_L {
+            display: block;
+            overflow: hidden;
+            border-radius: 4px;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0
+        }
+
+        .bm_L:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+            background: url(https://baomoi-static.zadn.vn/web/styles/img/logo-baomoi-gray.png) 50% -moz-calc(50% - 3px)/20% auto no-repeat #e9ecef;
+            background: url(https://baomoi-static.zadn.vn/web/styles/img/logo-baomoi-gray.png) center calc(50% - 3px)/20% auto no-repeat #e9ecef;
+            opacity: .4;
+            z-index: -1
+        }
+
+        .bm_L .bm_Bi {
+            overflow: hidden;
+            cursor: pointer
+        }
+
+        .bm_L .bm_Bi:hover img {
+            -webkit-transform: scale(1.05) translateZ(0);
+            -moz-transform: scale(1.05) translateZ(0);
+            transform: scale(1.05) translateZ(0)
+        }
+
+        .bm_L .bm_Bi img[src=""] {
+            opacity: 0
+        }
+
+        .bm_L+.bm_Fg {
+            padding: 10px 0
+        }
+
+        .bm_L figure {
+            width: 100%;
+            height: 100%;
+            line-height: 0
+        }
+
+        .bm_L img,
+        .bm_L video {
+            width: 100%;
+            height: 100%;
+            transition: -webkit-transform .7s;
+            -moz-transition: transform .7s, -moz-transform .7s;
+            transition: transform .7s;
+            transition: transform .7s, -webkit-transform .7s, -moz-transform .7s;
+            object-fit: cover
+        }
+
+        .bm_M .bm_O {
+            font-weight: 600
+        }
+
+        .bm_AP {
+            position: relative
+        }
+
+        .bm_T {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            color: #adb5bd;
+            font-size: 1.3rem;
+            height: 20px;
+            overflow: hidden
+        }
+
+        .bm_T>:not(:first-child) {
+            margin-left: 12px;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0
+        }
+
+        .bm_FN .bm_FO {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .bm_EL,
+        .bm_FO {
+            display: block
+        }
+
+        .bm_FP {
+            display: inline-block
+        }
+
+        .bm_Em {
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            display: none;
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-direction: column;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            z-index: 40
+        }
+
+        .bm_Em.bm_BQ {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex
+        }
+
+        .bm_Ef {
+            position: relative
+        }
+
+        .bm_FE {
+            margin: 20px
+        }
+
+        .bm_FF {
+            margin-top: 30px
+        }
+
+        .bm_FG {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            float: right;
+            margin-top: 20px
+        }
+
+        .bm_Eg {
+            position: relative
+        }
+
+        .bm_Ix {
+            max-width: 300px;
+            min-width: 220px;
+            position: absolute;
+            text-align: left;
+            border-radius: 8px
+        }
+
+        .bm_BJ,
+        .bm_BJ li {
+            display: block
+        }
+
+        .bm_BJ li {
+            padding: 0;
+            margin-bottom: 0
+        }
+
+        .bm_BJ .bm_BP {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            position: relative;
+            min-width: 220px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            font-weight: 400;
+            padding: 10px 15px
+        }
+
+        .bm_BJ .bm_BE {
+            position: relative;
+            font-size: 16px;
+            margin-right: 10px
+        }
+
+        .bm_BJ .bm_BE.bm_Ey {
+            margin-left: auto
+        }
+
+        .bm_BP {
+            font-size: 14px;
+            line-height: normal;
+            border: 0;
+            display: inline-block;
+            font-weight: 400;
+            text-transform: none;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+        }
+
+        .bm_BP.bm_FQ {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            font-weight: 400;
+            background-color: var(--alpha-bg);
+            border: 1px solid var(--border-primary);
+            color: var(--text-primary);
+            margin: 0 auto
+        }
+
+        .bm_BP.bm_FQ.bm_FB {
+            background-color: var(--purple-primary);
+            border-color: var(--purple-primary);
+            color: var(--white)
+        }
+
+        .bm_BP.bm_FR {
+            padding: 8px 0
+        }
+
+        .bm_BP.bm_FS {
+            font-size: 14px;
+            padding: 9px 24px
+        }
+
+        .bm_BP.bm_FS .bm_BE {
+            font-size: 16px;
+            margin-right: 5px
+        }
+
+        .bm_BP.bm_Eo {
+            font-size: 12px;
+            padding: 6px 19px
+        }
+
+        .bm_BP.bm_Eo .bm_BE {
+            font-size: 14px;
+            margin-right: 5px
+        }
+
+        .bm_BP.bm_FT {
+            background-color: var(--primary);
+            color: var(--white);
+            border-color: var(--primary)
+        }
+
+        .bm_BP.bm_FU {
+            background-color: var(--yellow)
+        }
+
+        .bm_BP.bm_FU,
+        .bm_BP.bm_FV {
+            color: var(--black) !important
+        }
+
+        .bm_BP.bm_FV {
+            background-color: var(--gray)
+        }
+
+        .bm_BP.bm_FW {
+            position: relative;
+            color: transparent !important;
+            pointer-events: none
+        }
+
+        @-webkit-keyframes bm_FX {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn)
+            }
+        }
+
+        @-moz-keyframes bm_FX {
+            0% {
+                -moz-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -moz-transform: rotate(1turn);
+                transform: rotate(1turn)
+            }
+        }
+
+        @keyframes bm_FX {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -webkit-transform: rotate(1turn);
+                -moz-transform: rotate(1turn);
+                transform: rotate(1turn)
+            }
+        }
+
+        .bm_BP.bm_FW:after {
+            position: absolute;
+            left: -moz-calc(50% - (1em/2));
+            left: calc(50% - (1em / 2));
+            top: -moz-calc(50% - (1em/2));
+            top: calc(50% - (1em / 2));
+            position: absolute !important;
+            -webkit-animation: bm_FX .5s linear infinite;
+            -moz-animation: bm_FX .5s linear infinite;
+            animation: bm_FX .5s linear infinite;
+            border-radius: 290486px;
+            border-color: transparent transparent #dbdbdb #dbdbdb;
+            border-style: solid;
+            border-width: 2px;
+            content: "";
+            display: block;
+            height: 1em;
+            position: relative;
+            width: 1em
+        }
+
+        .bm_BP[disabled] {
+            box-shadow: none;
+            opacity: .5;
+            cursor: not-allowed
+        }
+
+        .bm_O {
+            font-weight: 600;
+            display: block
+        }
+
+        .bm_O .bm_BE.bm_Ey {
+            position: relative;
+            top: 2px;
+            font-size: 18px;
+            color: inherit
+        }
+
+        .bm_Ez {
+            color: var(--text-secondary)
+        }
+
+        .bm_Ez.bm_FA {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%
+        }
+
+        .bm_Ez.bm_FA:hover {
+            color: var(--link-text-hover)
+        }
+
+        .bm_Ez.bm_FA a {
+            color: var(--text-secondary)
+        }
+
+        .bm_Ez.bm_FA a.bm_FB,
+        .bm_Ez.bm_FA a:hover {
+            color: var(--link-text-hover)
+        }
+
+        .bm_Ez .bm_FC {
+            color: var(--text-secondary)
+        }
+
+        .bm_Y {
+            display: inline-block;
+            background-image: url(https://baomoi-static.zadn.vn/web/styles/img/bm-icon-2.0.3.png);
+            background-size: 100px 4250px;
+            vertical-align: middle
+        }
+
+        .bm_Y.bm_Gw {
+            background-position: 0 0;
+            width: 20px;
+            height: 20px
+        }
+
+        .bm_Y.bm_Gx {
+            background-position: 0 -773px;
+            width: 23px;
+            height: 23px
+        }
+
+        .bm_Y.bm_Gy {
+            background-position: 0 -723px;
+            width: 23px;
+            height: 23px
+        }
+
+        .bm_Y.bm_Gz {
+            width: 40px;
+            height: 40px;
+            background-position: 0 -3600px
+        }
+
+        .bm_Y.bm_HA {
+            width: 40px;
+            height: 40px;
+            background-position: -50px -3600px
+        }
+
+        .bm_Y.bm_HB {
+            width: 40px;
+            height: 40px;
+            background-position: 0 -3650px
+        }
+
+        .bm_Y.bm_HC {
+            width: 40px;
+            height: 40px;
+            background-position: -50px -3650px
+        }
+
+        .bm_Y.bm_HE {
+            width: 40px;
+            height: 40px;
+            background-position: -50px -3700px
+        }
+
+        .bm_Y.bm_HF {
+            width: 32px;
+            height: 32px;
+            background-position: 0 -3450px
+        }
+
+        .bm_Y:before {
+            content: "" !important
+        }
+
+        .bm_BE {
+            display: inline-block;
+            line-height: 66%
+        }
+
+        .bm_BE:before {
+            font-family: bm-font-icon;
+            speak: never;
+            font-style: normal;
+            font-weight: 400;
+            -moz-font-feature-settings: normal;
+            font-feature-settings: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        #bm_HG [class*="icon ic-"]:before,
+        #bm_HG [class^="icon ic-"]:before {
+            font-family: bm-font-icon;
+            speak: never;
+            font-style: normal;
+            font-weight: 400;
+            -moz-font-feature-settings: normal;
+            font-feature-settings: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .bm_HH:before {
+            content: ""
+        }
+
+        .bm_HI:before {
+            content: ""
+        }
+
+        .bm_HJ:before {
+            content: ""
+        }
+
+        .bm_HK:before {
+            content: ""
+        }
+
+        .bm_HL:before {
+            content: ""
+        }
+
+        .bm_HM:before {
+            content: ""
+        }
+
+        .bm_HN:before {
+            content: ""
+        }
+
+        .bm_HO:before {
+            content: ""
+        }
+
+        .bm_HP:before {
+            content: ""
+        }
+
+        .bm_HQ:before {
+            content: ""
+        }
+
+        .bm_HR:before {
+            content: ""
+        }
+
+        .bm_HS:before {
+            content: ""
+        }
+
+        .bm_HT:before {
+            content: ""
+        }
+
+        .bm_HU:before {
+            content: ""
+        }
+
+        .bm_HV:before {
+            content: ""
+        }
+
+        .bm_HW:before {
+            content: ""
+        }
+
+        .bm_HX:before {
+            content: ""
+        }
+
+        .bm_EZ:before {
+            content: ""
+        }
+
+        .bm_HY:before {
+            content: ""
+        }
+
+        .bm_HZ:before {
+            content: ""
+        }
+
+        .bm_Ha:before {
+            content: ""
+        }
+
+        .bm_Hb:before {
+            content: ""
+        }
+
+        .bm_Hc:before {
+            content: ""
+        }
+
+        .bm_He:before {
+            content: ""
+        }
+
+        .bm_Hf:before {
+            content: ""
+        }
+
+        .bm_Hg:before {
+            content: ""
+        }
+
+        .bm_Hh:before {
+            content: ""
+        }
+
+        .bm_Hi:before {
+            content: ""
+        }
+
+        .bm_Hj:before {
+            content: ""
+        }
+
+        .bm_Hk:before {
+            content: ""
+        }
+
+        .bm_Hl:before {
+            content: ""
+        }
+
+        .bm_Hm:before {
+            content: ""
+        }
+
+        .bm_Hn:before {
+            content: ""
+        }
+
+        .bm_Ho:before {
+            content: ""
+        }
+
+        .bm_Hp:before {
+            content: ""
+        }
+
+        .bm_Hq:before {
+            content: ""
+        }
+
+        .bm_Hr:before {
+            content: ""
+        }
+
+        .bm_Hs:before {
+            content: ""
+        }
+
+        .bm_Ht:before {
+            content: ""
+        }
+
+        .bm_Hu:before {
+            content: ""
+        }
+
+        .bm_Hv:before {
+            content: ""
+        }
+
+        .bm_Hw:before {
+            content: ""
+        }
+
+        .bm_Hx:before {
+            content: ""
+        }
+
+        .bm_Hy:before {
+            content: ""
+        }
+
+        .bm_Hz:before {
+            content: ""
+        }
+
+        .bm_IA:before {
+            content: ""
+        }
+
+        .bm_IB:before {
+            content: ""
+        }
+
+        .bm_IC:before {
+            content: ""
+        }
+
+        .bm_IE:before {
+            content: ""
+        }
+
+        .bm_IF:before {
+            content: ""
+        }
+
+        .bm_GC:before {
+            content: ""
+        }
+
+        .bm_AK:before {
+            content: ""
+        }
+
+        .bm_IG:before {
+            content: ""
+        }
+
+        .bm_IH:before {
+            content: ""
+        }
+
+        .bm_II:before {
+            content: ""
+        }
+
+        .bm_Eh:before {
+            content: ""
+        }
+
+        .bm_GB:before {
+            content: ""
+        }
+
+        .bm_Cw:before {
+            content: ""
+        }
+
+        .bm_Gx:before {
+            content: ""
+        }
+
+        .bm_IJ:before {
+            content: ""
+        }
+
+        .bm_IK:before {
+            content: ""
+        }
+
+        .bm_IL:before {
+            content: ""
+        }
+
+        .bm_IM:before {
+            content: ""
+        }
+
+        .bm_Fy:before {
+            content: ""
+        }
+
+        .bm_GA:before {
+            content: ""
+        }
+
+        .bm_IN:before {
+            content: ""
+        }
+
+        .bm_IO:before {
+            content: ""
+        }
+
+        .bm_IP:before {
+            content: ""
+        }
+
+        .bm_IQ:before {
+            content: ""
+        }
+
+        .bm_IR:before {
+            content: ""
+        }
+
+        .bm_IS:before {
+            content: ""
+        }
+
+        .bm_IT:before {
+            content: ""
+        }
+
+        .bm_IU:before {
+            content: ""
+        }
+
+        .bm_IV:before {
+            content: ""
+        }
+
+        .bm_Fz:before {
+            content: ""
+        }
+
+        .bm_IW:before {
+            content: ""
+        }
+
+        .bm_Bi {
+            position: relative
+        }
+
+        .bm_Ff {
+            display: block
+        }
+
+        .bm_Fu {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-box-lines: multiple;
+            -moz-box-lines: multiple;
+            box-lines: multiple;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            flex-wrap: wrap;
+            position: relative
+        }
+
+        .bm_Fv {
+            -webkit-flex-shrink: 1;
+            flex-shrink: 1
+        }
+
+        .bm_Fv.bm_AM {
+            width: 625px
+        }
+
+        .bm_Fv.bm_Fw {
+            width: 330px;
+            margin-left: auto
+        }
+
+        .bm_Fs .bm_Ft {
+            border-bottom: 1px solid var(--border-secondary)
+        }
+
+        .bm_Fg {
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            text-align: left;
+            padding: 10px;
+            border-radius: 5px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        .bm_Fg .bm_Fh:hover .bm_Fi {
+            background-color: #e8e8e8
+        }
+
+        .bm_Fg.bm_Fj .bm_Fk,
+        .bm_Fg.bm_Fj .bm_Fl {
+            display: none
+        }
+
+        .bm_Fg .bm_O {
+            font-weight: 500;
+            vertical-align: top
+        }
+
+        .bm_Fg .bm_O,
+        .bm_Fg .bm_O a {
+            display: inline-block
+        }
+
+        .bm_Fg .bm_Ez,
+        .bm_Fg .bm_O,
+        .bm_Fg .bm_O a {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+            line-height: normal
+        }
+
+        .bm_Fg .bm_Ez {
+            display: block;
+            font-size: 12px;
+            margin-top: 3px
+        }
+
+        .bm_Fg .bm_Fm {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-direction: column;
+            -moz-flex-direction: column;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .bm_Bn,
+        .bm_Fn {
+            -webkit-flex-basis: auto;
+            flex-basis: auto;
+            -webkit-flex-grow: 0;
+            -moz-box-flex: 0;
+            flex-grow: 0;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0
+        }
+
+        .bm_Bn {
+            margin-right: 10px
+        }
+
+        .bm_Bn .bm_Fo {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border-radius: 4px;
+            cursor: pointer
+        }
+
+        .bm_Bn .bm_Fo+.bm_Fm {
+            overflow: hidden
+        }
+
+        .bm_Bn .bm_Fo.bm_FB .bm_Fp,
+        .bm_Bn .bm_Fo.bm_FB .bm_Fq {
+            visibility: visible
+        }
+
+        .bm_Fn {
+            margin-left: 10px
+        }
+
+        .bm_Fr {
+            -webkit-flex-basis: auto;
+            flex-basis: auto;
+            -webkit-flex-grow: 1;
+            -moz-box-flex: 1;
+            flex-grow: 1;
+            -webkit-flex-shrink: 1;
+            flex-shrink: 1;
+            text-align: left;
+            -webkit-align-self: center;
+            align-self: center;
+            width: 0
+        }
+
+        .bm_j {
+            display: block
+        }
+
+        .bm_AC {
+            -webkit-flex-grow: 1;
+            -moz-box-flex: 1;
+            flex-grow: 1;
+            margin: 0 auto;
+            position: relative;
+            width: 970px
+        }
+
+        .bm_AC.bm_Gt {
+            width: -moz-calc(100% + var(--padding-section) * 2);
+            width: calc(100% + var(--padding-section) * 2);
+            margin-left: calc(-1 * var(--padding-section))
+        }
+
+        .bm_AH>* {
+            margin-bottom: 30px
+        }
+
+        .bm_AH .bm_Fb .bm_AP {
+            margin-left: 12px
+        }
+
+        .bm_l {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            justify-content: space-between
+        }
+
+        .bm_l code {
+            border-radius: 2px
+        }
+
+        .bm_l img {
+            display: inline-block;
+            vertical-align: top
+        }
+
+        .bm_l .bm_AL,
+        .bm_l .bm_m {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex
+        }
+
+        .bm_l .bm_m+.bm_AL {
+            margin-top: 0
+        }
+
+        .bm_l .bm_FK:not(:last-child) {
+            margin-bottom: 0;
+            margin-right: 0
+        }
+
+        .bm_l .bm_FK:not(.bm_FL) {
+            -webkit-flex-grow: 1;
+            -moz-box-flex: 1;
+            flex-grow: 1
+        }
+
+        .bm_FK {
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-basis: auto;
+            flex-basis: auto;
+            -webkit-flex-grow: 0;
+            -moz-box-flex: 0;
+            flex-grow: 0;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center
+        }
+
+        .bm_FK .bm_Ez,
+        .bm_FK .bm_O {
+            margin-bottom: 0
+        }
+
+        .bm_AL,
+        .bm_m {
+            -webkit-flex-basis: auto;
+            flex-basis: auto;
+            -webkit-flex-grow: 0;
+            -moz-box-flex: 0;
+            flex-grow: 0;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0
+        }
+
+        .bm_AL .bm_FK.bm_FM,
+        .bm_m .bm_FK.bm_FM {
+            -webkit-flex-grow: 1;
+            -moz-box-flex: 1;
+            flex-grow: 1
+        }
+
+        .bm_m {
+            -webkit-justify-content: flex-start;
+            -moz-box-pack: start;
+            justify-content: flex-start
+        }
+
+        .bm_AL,
+        .bm_m {
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center
+        }
+
+        .bm_AL {
+            -webkit-justify-content: flex-end;
+            -moz-box-pack: end;
+            justify-content: flex-end
+        }
+
+        .bm_Ew {
+            line-height: 1.25;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            font-size: 12px
+        }
+
+        .bm_Ew,
+        .bm_Ew input {
+            cursor: pointer;
+            position: relative
+        }
+
+        .bm_Ew input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 999px;
+            border: 1px solid #a0a0a0;
+            padding: 8px;
+            margin-right: 6px
+        }
+
+        .bm_Ew input:checked {
+            background-color: var(--purple-primary);
+            border-color: var(--purple-primary)
+        }
+
+        .bm_Ew input:checked:after {
+            content: " ";
+            border-left-color: #fff;
+            border-bottom: 2px solid #fff;
+            border-right: 2px solid #fff;
+            border-top-color: #fff;
+            height: 47%;
+            width: 20%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -63%) rotate(45deg);
+            -moz-transform: translate(-50%, -63%) rotate(45deg);
+            transform: translate(-50%, -63%) rotate(45deg)
+        }
+
+        .bm_Ew[disabled] {
+            color: #7a7a7a;
+            cursor: not-allowed
+        }
+
+        .bm_Ex {
+            display: block
+        }
+
+        .bm_ET {
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            clear: both;
+            font-size: 1rem;
+            position: relative;
+            text-align: inherit
+        }
+
+        .bm_FH {
+            max-width: 100%;
+            width: 100%;
+            color: #343a40
+        }
+
+        .bm_FI {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            position: relative;
+            padding-left: 20px;
+            cursor: pointer;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            font-size: 16px
+        }
+
+        .bm_FI input[type=radio] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer
+        }
+
+        .bm_FI input[type=radio]:checked~.bm_FJ {
+            background-color: #2fa1b3
+        }
+
+        .bm_FI input[type=radio]:checked~.bm_FJ:before {
+            display: block
+        }
+
+        .bm_FI .bm_FJ {
+            border-radius: 50%;
+            display: block;
+            height: 16px;
+            width: 16px;
+            background-color: #fff;
+            border: 2px solid #2fa1b3;
+            position: absolute;
+            left: 0;
+            top: 3px
+        }
+
+        .bm_FI .bm_FJ:before {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 6px;
+            height: 6px;
+            background: #fff;
+            display: none;
+            border-radius: 50%
+        }
+
+        .bm_BL {
+            position: relative
+        }
+
+        .bm_BL img {
+            opacity: 0
+        }
+
+        .bm_BL .bm_BM {
+            opacity: 1;
+            -moz-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out
+        }
+
+        .bm_Ee .bm_Ef,
+        .bm_Ee .bm_Eg {
+            width: 100%
+        }
+
+        .bm_Ee .bm_BP {
+            border-radius: 3px
+        }
+
+        .bm_Ee .bm_M {
+            padding: 15px 25px;
+            text-align: center;
+            position: relative
+        }
+
+        .bm_Ee .bm_M .bm_Eh {
+            top: 15px;
+            right: 15px;
+            position: absolute;
+            color: #000;
+            opacity: .5;
+            font-size: 15px
+        }
+
+        .bm_Ee .bm_M .bm_Eh:hover {
+            opacity: 1
+        }
+
+        .bm_Ee .bm_M .bm_O {
+            font-size: 2.4rem;
+            line-height: 3rem;
+            text-transform: uppercase
+        }
+
+        .bm_Ee .bm_M .bm_Ei {
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            display: block
+        }
+
+        .bm_Ee .bm_AP {
+            padding: 20px 25px
+        }
+
+        .bm_Ee .bm_AP .bm_Ej {
+            display: block;
+            padding: 7px 10px
+        }
+
+        .bm_Ee .bm_AP .bm_Ej:hover {
+            background-color: #f5f5f5
+        }
+
+        .bm_Ee .bm_AP .bm_Ej.bm_BQ {
+            background-color: #f5f5f5
+        }
+
+        .bm_Ee .bm_T {
+            padding: 20px 25px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+            height: auto;
+            display: block;
+            border-radius: 0
+        }
+
+        .bm_Ee .bm_T .bm_BP {
+            border: 1px solid #e9ecef;
+            width: 240px;
+            margin: 0 5px;
+            font-size: 18px;
+            line-height: 1.5;
+            height: auto;
+            padding: .5rem 1rem;
+            font-weight: 700;
+            text-transform: uppercase
+        }
+
+        .bm_Ee .bm_T .bm_Ek {
+            color: #343a40;
+            -moz-transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+            transition: background-color .3s ease, color .3s ease, border-color .3s ease
+        }
+
+        .bm_Ee .bm_T .bm_Ek:hover {
+            border-color: #343a40;
+            background-color: #343a40;
+            color: #fff
+        }
+
+        .bm_Ee .bm_T .bm_BP.bm_El {
+            color: #343a40;
+            background-color: transparent;
+            background-image: none
+        }
+
+        .bm_Ee .bm_T .bm_BP.bm_El:hover {
+            background-color: #343a40;
+            border: 1px solid #e9ecef;
+            color: #fff
+        }
+
+        .bm_Em .bm_Eg {
+            width: 100%
+        }
+
+        .bm_Em .bm_En {
+            display: inline-block
+        }
+
+        .bm_Q {
+            border-radius: 3px;
+            background-color: #03a5fa;
+            height: 40px;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            padding: .5rem
+        }
+
+        .bm_Q span {
+            font-size: 14px;
+            color: var(--white);
+            margin-bottom: 0;
+            padding-left: 10px;
+            margin-left: 5px;
+            position: relative
+        }
+
+        .bm_Q span:before {
+            width: 1px;
+            height: 18px;
+            background-color: hsla(0, 0%, 100%, .5);
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 1px
+        }
+
+        .bm_Q:hover {
+            background-color: #0284c8
+        }
+
+        .bm_Q .bm_Y {
+            background-position: 0 -3450px !important;
+            display: block !important
+        }
+
+        .bm_Q .bm_Y:hover {
+            background-position: 0 -3450px !important
+        }
+
+        .bm_Ep {
+            z-index: 1070;
+            right: auto;
+            border-radius: 3px;
+            position: absolute;
+            background-color: #231f3b;
+            width: 230px
+        }
+
+        .bm_Eq {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1080;
+            background-color: rgba(0, 0, 0, .5);
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center
+        }
+
+        .bm_Eq .bm_Em {
+            position: relative;
+            border-radius: 3px;
+            max-height: 100%;
+            margin: 0 15px;
+            background-color: #fff
+        }
+
+        .bm_Jj {
+            width: 648px
+        }
+
+        .bm_Jj .bm_T .bm_Q {
+            max-width: 240px;
+            margin: auto
+        }
+
+        .bm_AG {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center
+        }
+
+        .bm_AG .bm_AK {
+            color: #2fa1b3
+        }
+
+        .bm_AG .bm_AK:before {
+            font-size: 14px
+        }
+
+        .bm_AG.bm_JQ .bm_AK:before,
+        .bm_AG:hover .bm_AK:before {
+            content: ""
+        }
+
+        .bm_Bu.bm_JP .bm_BE:before,
+        .bm_Bu:hover .bm_BE:before {
+            content: "";
+            color: #2fa1b3
+        }
+
+        .bm_JN.bm_JO .bm_BE:before,
+        .bm_JN:hover .bm_BE:before {
+            color: #2fa1b3;
+            content: ""
+        }
+
+        .bm_JV {
+            width: 648px
+        }
+
+        .bm_g {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center
+        }
+
+        .bm_g img {
+            opacity: .8;
+            width: auto;
+            height: 16px
+        }
+
+        .bm_g span {
+            margin-left: 4px;
+            color: #adb5bd
+        }
+
+        .bm_g:hover span {
+            color: var(--primary)
+        }
+
+        .bm_F {
+            display: inline
+        }
+
+        .bm_F span {
+            color: #adb5bd
+        }
+
+        .bm_F:hover span {
+            color: var(--primary)
+        }
+
+        .bm_h .bm_AQ {
+            display: block;
+            font-size: 2rem;
+            line-height: 2.6rem;
+            font-weight: 600;
+            background-color: #f2f4f5;
+            padding: 10px;
+            color: var(--dark)
+        }
+
+        .bm_Eb {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: flex-start;
+            -moz-box-align: start;
+            align-items: flex-start;
+            color: #212529;
+            padding-top: 5px;
+            position: relative;
+            z-index: 1
+        }
+
+        .bm_Eb .bm_BE {
+            -webkit-flex: none;
+            -moz-box-flex: 0;
+            flex: none;
+            width: 25px;
+            top: 6px;
+            position: relative
+        }
+
+        .bm_Eb .bm_Be {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap
+        }
+
+        .bm_Eb .bm_Be .bm_c {
+            font-size: 12px;
+            display: inline-block;
+            text-transform: capitalize;
+            line-height: 2;
+            color: #212529
+        }
+
+        .bm_Eb .bm_Be .bm_c:hover {
+            color: #2fa1b3
+        }
+
+        .bm_Eb .bm_Be .bm_c:not(:last-of-type):after {
+            color: #212529;
+            content: "/";
+            padding: 0 6px
+        }
+
+        .bm_Ec {
+            margin-left: 10px
+        }
+
+        .bm_BS {
+            position: relative
+        }
+
+        .bm_JZ {
+            width: 648px
+        }
+
+        .bm_JZ .bm_En {
+            color: #fff;
+            background-color: #d9534f;
+            border-color: #d9534f
+        }
+
+        .bm_JZ .bm_BP.bm_En:hover {
+            background-color: #d23430
+        }
+
+        .bm_EY {
+            background-color: rgba(219, 86, 43, .04);
+            color: rgba(219, 86, 43, .7);
+            border: 1px solid rgba(219, 86, 43, .5);
+            font-size: 1.6rem;
+            line-height: 2.8rem
+        }
+
+        .bm_EY:hover {
+            background-color: #db562b;
+            color: #fff
+        }
+
+        .bm_E .bm_O {
+            color: #212529
+        }
+
+        .bm_E.bm_BR {
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-direction: column
+        }
+
+        .bm_E.bm_BR .bm_AP {
+            margin-left: 0
+        }
+
+        .bm_E:not(.bm_BR) .bm_L {
+            margin-top: 4px
+        }
+
+        .bm_E .bm_L.bm_BS figure {
+            transition: -webkit-transform .7s;
+            -moz-transition: transform .7s, -moz-transform .7s;
+            transition: transform .7s;
+            transition: transform .7s, -webkit-transform .7s, -moz-transform .7s;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            background: #e9ecef;
+            border: 1px solid #dee2e6;
+            cursor: pointer
+        }
+
+        .bm_E .bm_L.bm_BS figure:hover {
+            -webkit-transform: scale(1.05) translateY(0);
+            -moz-transform: scale(1.05) translateY(0);
+            transform: scale(1.05) translateY(0)
+        }
+
+        .bm_E .bm_L.bm_BS figure:before {
+            content: "KHÔNG CÓ ẢNH";
+            color: #212529;
+            font-size: 1rem
+        }
+
+        .bm_E.bm_BT .bm_L:before,
+        .bm_E.bm_BU .bm_L:before {
+            position: absolute;
+            content: " ";
+            display: inline-block;
+            background-image: url(https://baomoi-static.zadn.vn/web/styles/img/bm-icon-2.0.3.png);
+            background-color: rgba(0, 0, 0, .5);
+            right: 5px;
+            bottom: 5px;
+            width: 23px;
+            height: 23px;
+            border-radius: 15px;
+            background-size: 100px 4250px;
+            z-index: 2
+        }
+
+        .bm_E:hover .bm_Y {
+            display: block
+        }
+
+        .bm_E:hover a {
+            color: #2fa1b3
+        }
+
+        .bm_E.bm_BT:hover .bm_L:before {
+            background-position: -50px -700px
+        }
+
+        .bm_E.bm_BT .bm_L:before {
+            background-position: 0 -700px
+        }
+
+        .bm_E.bm_BU:hover .bm_L:before {
+            background-position: -50px -750px
+        }
+
+        .bm_E.bm_BU .bm_L:before {
+            background-position: 0 -750px
+        }
+
+        .bm_E .bm_Y {
+            display: none
+        }
+
+        .bm_E .bm_Y:hover {
+            background-position: -50px 0
+        }
+
+        .bm_AO {
+            display: block
+        }
+
+        @-webkit-keyframes bm_BW {
+
+            0%,
+            49% {
+                background-color: red
+            }
+
+            50%,
+            to {
+                background-color: rgba(255, 0, 0, .8)
+            }
+        }
+
+        @-moz-keyframes bm_BW {
+
+            0%,
+            49% {
+                background-color: red
+            }
+
+            50%,
+            to {
+                background-color: rgba(255, 0, 0, .8)
+            }
+        }
+
+        @keyframes bm_BW {
+
+            0%,
+            49% {
+                background-color: red
+            }
+
+            50%,
+            to {
+                background-color: rgba(255, 0, 0, .8)
+            }
+        }
+
+        .bm_BV .bm_T {
+            position: relative
+        }
+
+        .bm_BV .bm_T .bm_g {
+            padding-left: 12px
+        }
+
+        .bm_BV .bm_T:before {
+            display: -webkit-inline-flex;
+            display: -moz-inline-box;
+            display: inline-flex;
+            content: "LIVE";
+            letter-spacing: 1px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            padding: 2px 8px;
+            border-radius: 9px;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-animation: bm_BW 1s infinite;
+            -moz-animation: bm_BW 1s infinite;
+            animation: bm_BW 1s infinite;
+            background-color: rgba(255, 0, 0, .7);
+            color: #fff
+        }
+
+        .bm_AJ {
+            padding: 10px 20px 10px 50px;
+            position: fixed;
+            bottom: 50px;
+            left: -moz-calc(50% - 170px);
+            left: calc(50% - 170px);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: 2147483647;
+            font-size: 0;
+            border-radius: 3px;
+            box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .55);
+            background: #fff url(https://baomoi-static.zadn.vn/web/styles/img/loading-1.0.0.gif) 18px no-repeat;
+            background-size: 22px 22px;
+            font-size: 14px;
+            color: #777
+        }
+
+        .bm_E.bm_BN {
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-direction: column
+        }
+
+        .bm_E.bm_BN .bm_AP {
+            margin: 0
+        }
+
+        .bm_E.bm_BN .bm_BO {
+            position: relative;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            justify-content: space-between;
+            width: 100%;
+            margin: 5px 0;
+            height: 95px;
+            border-radius: 4px;
+            overflow: hidden
+        }
+
+        .bm_E.bm_BN .bm_BO .bm_L {
+            border-radius: 0;
+            margin-top: 0
+        }
+
+        .bm_E.bm_BN .bm_BO figure {
+            width: 155px;
+            height: 95px
+        }
+
+        .bm_E.bm_BN .bm_BO:after {
+            position: absolute;
+            content: " ";
+            display: inline-block;
+            background-image: url(https://baomoi-static.zadn.vn/web/styles/img/bm-icon-2.0.3.png);
+            background-color: rgba(0, 0, 0, .5);
+            left: 123px;
+            bottom: 5px;
+            width: 23px;
+            height: 23px;
+            border-radius: 15px;
+            background-size: 100px 4250px;
+            background-position: 0 -700px
+        }
+
+        .bm_E.bm_BN:hover .bm_BO:after {
+            background-position: -50px -700px
+        }
+
+        .bm_AN.bm_Eo .bm_E:not(:first-child) {
+            margin-top: 8px;
+            padding-top: 12px
+        }
+
+        .bm_AN.bm_Eo .bm_L {
+            width: 60px;
+            height: 60px;
+            margin-top: 3px
+        }
+
+        .bm_AN.bm_Eo .bm_L .bm_Bi:before {
+            font-size: 7px
+        }
+
+        .bm_AN.bm_Eo .bm_M {
+            font-size: 1.9rem;
+            line-height: 2.5rem;
+            font-weight: 600
+        }
+
+        .bm_AN.bm_Eo .bm_AP {
+            margin-left: 10px
+        }
+
+        .bm_AN.bm_AO {
+            position: relative;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            -moz-box-orient: horizontal;
+            -moz-box-direction: normal;
+            flex-flow: row wrap;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            justify-content: space-between
+        }
+
+        .bm_AN.bm_AO .bm_E {
+            width: 198px;
+            margin-bottom: 20px
+        }
+
+        .bm_AN.bm_AO .bm_E:not(:first-child) {
+            border-top: none;
+            margin-top: 0;
+            padding-top: 0
+        }
+
+        .bm_AN.bm_AO .bm_L {
+            width: 196px;
+            height: 125px
+        }
+
+        .bm_AN .bm_E {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            width: 100%
+        }
+
+        .bm_AN .bm_E:not(:first-child) {
+            border-top: 1px solid #e9ecef;
+            margin-top: 15px;
+            padding-top: 11px
+        }
+
+        .bm_AN .bm_E.bm_BN:not(:first-child) {
+            padding-top: 8px
+        }
+
+        .bm_AN .bm_E.bm_BN:not(:first-child)+.bm_E {
+            margin-top: 8px
+        }
+
+        .bm_AN .bm_L {
+            width: 155px;
+            height: 100px
+        }
+
+        .bm_AN .bm_M {
+            font-size: 2.2rem;
+            line-height: 2.8rem;
+            font-weight: 600
+        }
+
+        .bm_AN .bm_AP {
+            margin-left: 15px
+        }
+
+        .bm_I {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            margin-top: 15px
+        }
+
+        .bm_I .bm_BP {
+            font-size: 13px;
+            text-transform: uppercase;
+            padding: 5px 20px;
+            margin: 0 5px;
+            height: 30px;
+            border-radius: 15px;
+            min-width: 125px
+        }
+
+        .bm_I .bm_BP.bm_FT {
+            display: block
+        }
+
+        .bm_I .bm_BP.bm_FZ {
+            color: #fff;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-flex-direction: row-reverse;
+            -moz-box-orient: horizontal;
+            -moz-box-direction: reverse;
+            flex-direction: row-reverse
+        }
+
+        .bm_I .bm_BP.bm_FZ .bm_BE {
+            margin-left: 10px;
+            width: 10px
+        }
+
+        .bm_I .bm_BP.bm_FZ:hover {
+            background-color: #278695;
+            border-color: #247d8b
+        }
+
+        .bm_I .bm_BP.bm_FZ:hover .bm_BE:before {
+            content: ""
+        }
+
+        .bm_I .bm_BP.bm_Fa {
+            color: var(--primary)
+        }
+
+        .bm_I .bm_BP.bm_Fa .bm_BE {
+            margin-right: 10px
+        }
+
+        .bm_I .bm_BP.bm_Fa:hover {
+            color: #fff;
+            background-color: var(--primary);
+            border-color: var(--primary)
+        }
+
+        .bm_Jc .bm_L {
+            width: 100%;
+            height: 340px;
+            margin-top: 0 !important
+        }
+
+        .bm_Jc .bm_M {
+            font-size: 3.2rem;
+            line-height: 3.8rem;
+            font-weight: 600;
+            margin-top: 10px
+        }
+
+        .bm_Je {
+            margin-top: 11px;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px
+        }
+
+        .bm_Je .bm_E {
+            width: 198px
+        }
+
+        .bm_Je .bm_M {
+            margin-top: 7px;
+            font-size: 2rem;
+            line-height: 2.6rem;
+            font-weight: 600
+        }
+
+        .bm_Je .bm_L {
+            height: 125px
+        }
+
+        .bm_Je .bm_F {
+            display: none
+        }
+
+        .bm_Af {
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            background-color: #fff;
+            z-index: 10000;
+            top: 0;
+            left: 0
+        }
+
+        .bm_Ag {
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .26);
+            margin: 15px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        @media(min-width:768px) {
+            .bm_Ag {
+                margin: 100px auto 10px;
+                width: 750px
+            }
+        }
+
+        .bm_Ag .bm_Ah,
+        .bm_Ag .bm_Ai {
+            background-repeat: no-repeat;
+            padding-top: 65px;
+            background-size: 310px 50px
+        }
+
+        @media(min-width:1024px) {
+
+            .bm_Ag .bm_Ah,
+            .bm_Ag .bm_Ai {
+                padding-top: 50px;
+                background-size: 248px 40px
+            }
+        }
+
+        @media(max-width:320px) {
+
+            .bm_Ag .bm_Ah,
+            .bm_Ag .bm_Ai {
+                background-size: 155px 25px
+            }
+        }
+
+        @media(min-width:768px) {
+
+            .bm_Ag .bm_Ah,
+            .bm_Ag .bm_Ai {
+                padding-top: 80px
+            }
+        }
+
+        .bm_Ag .bm_Aj {
+            font-weight: 700;
+            color: #538455
+        }
+
+        .bm_Ag .bm_Aj:hover {
+            text-decoration: underline
+        }
+
+        .bm_Ag .bm_Ah {
+            background-image: url(https://baomoi-static.zadn.vn/mobile-v2/styles/img/error/not-found.png)
+        }
+
+        .bm_Ag .bm_Ai {
+            background-image: url(https://baomoi-static.zadn.vn/mobile-v2/styles/img/error/website-maintain.png)
+        }
+
+        .bm_Ak {
+            height: 40px;
+            border-bottom: 1px solid #ccc;
+            position: relative
+        }
+
+        @media(min-width:768px) {
+            .bm_Ak {
+                height: 60px
+            }
+        }
+
+        .bm_Al {
+            width: 92px;
+            height: 26px;
+            margin-left: 20px;
+            background-image: url(https://baomoi-static.zadn.vn/mobile-v2/styles/img/error/logo.png);
+            background-size: 124px auto
+        }
+
+        @media(min-width:768px) {
+            .bm_Al {
+                width: 129px;
+                height: 36px;
+                background-size: 171px auto
+            }
+        }
+
+        .bm_Am {
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #2fa1b3;
+            color: #fff;
+            height: 36px;
+            padding: 0 12px;
+            vertical-align: middle;
+            margin: 0 10px;
+            border-radius: 3px;
+            font-size: 1.2rem;
+            line-height: 3.6rem
+        }
+
+        .bm_Am:hover {
+            opacity: .9;
+            color: #fff;
+            text-decoration: underline
+        }
+
+        @media(max-width:767px) {
+            .bm_Am {
+                display: none
+            }
+        }
+
+        .bm_An {
+            width: 26px;
+            height: 26px;
+            background-size: 26px 26px;
+            border-radius: 3px;
+            margin-right: 10px
+        }
+
+        @media(min-width:768px) {
+            .bm_An {
+                width: 36px;
+                height: 36px;
+                background-size: 36px 36px
+            }
+        }
+
+        .bm_An:hover {
+            opacity: .9
+        }
+
+        .bm_Ao {
+            background-image: url(https://baomoi-static.zadn.vn/mobile-v2/styles/img/error/error-fb.png)
+        }
+
+        .bm_Ap {
+            background-image: url(https://baomoi-static.zadn.vn/mobile-v2/styles/img/error/error-zalo.png)
+        }
+
+        .bm_Aq {
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            border-top: 1px solid #ccc;
+            margin-top: 20px;
+            padding: 20px 20px 10px
+        }
+
+        @media(min-width:768px) {
+            .bm_Aq {
+                display: none
+            }
+        }
+
+        @media(max-width:320px) {
+            .bm_Aq {
+                margin-bottom: 5px !important
+            }
+        }
+
+        .bm_Ar {
+            padding-top: 30px
+        }
+
+        .bm_Ar input {
+            width: 338px;
+            height: 45px;
+            border: 1px solid #538455;
+            margin-right: 10px;
+            padding: 10px;
+            width: -moz-calc(100% - 60px);
+            width: calc(100% - 60px)
+        }
+
+        @media(max-width:767px) {
+            .bm_Ar input {
+                font-size: 18px
+            }
+        }
+
+        @media(max-width:320px) {
+            .bm_Ar input {
+                font-size: 16px
+            }
+        }
+
+        .bm_Ar button {
+            width: 45px;
+            height: 45px;
+            border: none;
+            vertical-align: top;
+            background-color: #538455;
+            padding: 0
+        }
+
+        .bm_Ar button:hover {
+            opacity: .9
+        }
+
+        .bm_Ar button i {
+            background-position: -250px -100px
+        }
+
+        .bm_As {
+            background: none;
+            padding: 10px;
+            height: auto
+        }
+
+        @media(min-width:768px) {
+            .bm_As {
+                background: url(https://baomoi-static.zadn.vn/mobile-v2/styles/img/error/opp.png) 70px 40px no-repeat;
+                padding: 50px 100px 20px 250px;
+                height: 350px
+            }
+        }
+
+        .bm_Jf {
+            position: relative;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-flow: column wrap;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-flow: column wrap;
+            width: 100%;
+            padding-top: 15px;
+            margin-top: 15px;
+            border-top: 1px solid #eee;
+            background: url(https://baomoi-static.zadn.vn/web/styles/img/topic-bg-2.png) 0 155px no-repeat
+        }
+
+        .bm_Jf>.bm_O {
+            position: relative;
+            padding-left: 10px;
+            font-size: 2.2rem;
+            line-height: 2.8rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            color: #db562b
+        }
+
+        .bm_Jf>.bm_O:before {
+            content: "|";
+            display: inline-block;
+            position: absolute;
+            top: -1px;
+            left: -4px;
+            color: inherit
+        }
+
+        .bm_Jf>.bm_O a {
+            color: inherit
+        }
+
+        .bm_Jf>.bm_O:hover {
+            color: #222
+        }
+
+        .bm_Jf+* {
+            border-top: 5px solid #f9f9f9;
+            margin-top: 25px;
+            padding-top: 11px
+        }
+
+        .bm_Jf .bm_AN {
+            position: relative;
+            padding-left: 165px
+        }
+
+        .bm_Jf .bm_AN:after {
+            content: "";
+            width: 100%;
+            height: 100px;
+            background-image: -moz-linear-gradient(hsla(0, 0%, 100%, 0) 0, #fff 90%, #fff 100%);
+            background-image: linear-gradient(hsla(0, 0%, 100%, 0), #fff 90%, #fff);
+            position: absolute;
+            bottom: 0;
+            left: 0
+        }
+
+        .bm_Jf .bm_AN .bm_E:not(:first-child) {
+            margin-top: 10px
+        }
+
+        .bm_Jf .bm_AN .bm_E:before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 4px;
+            position: absolute;
+            top: 22px;
+            left: 2px;
+            background-color: #2fa1b3
+        }
+
+        .bm_Jf .bm_AN .bm_E:first-child:before {
+            top: 12px
+        }
+
+        .bm_Jf .bm_AN .bm_E:first-child .bm_L {
+            display: block;
+            position: absolute;
+            left: -165px;
+            width: 151px;
+            height: 101px
+        }
+
+        .bm_Jf .bm_AN .bm_E .bm_F,
+        .bm_Jf .bm_AN .bm_E .bm_L {
+            display: none
+        }
+
+        .bm_Jf .bm_AN .bm_E .bm_O {
+            font-size: 19px;
+            line-height: 2.5rem
+        }
+
+        .bm_Jf .bm_GL {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 600;
+            position: absolute;
+            bottom: -10px;
+            color: #2fa1b3;
+            left: 165px;
+            text-transform: uppercase
+        }
+
+        .bm_Jf .bm_GL:hover {
+            text-decoration: underline
+        }
+
+        .bm_JR {
+            min-height: 250px;
+            text-align: center
+        }
+
+        .bm_JR,
+        .bm_JS {
+            width: 330px;
+            padding: 15px;
+            background-color: #f7f7f7
+        }
+
+        .bm_JS {
+            height: 280px
+        }
+
+        .bm_JT {
+            width: 970px;
+            min-height: 90px;
+            text-align: center;
+            margin: 0 auto
+        }
+
+        #app #BaoMoi_Top {
+            height: 280px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #f2f2f2
+        }
+
+        #app #BaoMoi_HalfPage,
+        #app #BaoMoi_R3 {
+            height: 630px
+        }
+
+        .bm_JU {
+            background-color: #f2f2f2;
+            margin-top: 0;
+            height: 280px;
+            min-height: 280px;
+            position: relative;
+            z-index: 99
+        }
+
+        .bm_Gu {
+            text-transform: uppercase;
+            height: 20px;
+            font-weight: 600;
+            color: #2fa1b3;
+            margin-bottom: 15px
+        }
+
+        .bm_Gu .bm_BE {
+            margin-left: 10px
+        }
+
+        .bm_Gu .bm_BP.bm_BQ .bm_BE:before {
+            content: ""
+        }
+
+        .bm_Gv .bm_E:first-child {
+            border-top: 1px solid #e9ecef;
+            margin-top: 15px;
+            padding-top: 11px
+        }
+
+        .bm_AS {
+            color: #7d5a29;
+            background-color: #fcefdc;
+            position: relative;
+            padding: 6px 12.5px;
+            border: 1px solid #fbe8cd;
+            border-radius: .25rem;
+            font-size: 16px
+        }
+    </style>
+    <style data-href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/css/33cde5b1bfdbbda35028.css">
+        .bm_EA {
+            width: 500px;
+            height: 36px;
+            position: relative;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            justify-content: space-between;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            border: 1px solid #e9ecef;
+            background-color: #fff;
+            margin-left: 70px
+        }
+
+        .bm_EA input::-webkit-input-placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA input::-webkit-input-placeholder,
+        .bm_EA input::placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA input:-ms-input-placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA input:-moz-input-placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA textarea::-webkit-input-placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA textarea::-webkit-input-placeholder,
+        .bm_EA textarea::placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA textarea:-ms-input-placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA textarea:-moz-input-placeholder {
+            font-size: 1.3rem;
+            text-align: left;
+            color: #777 !important;
+            font-weight: 400
+        }
+
+        .bm_EA:hover {
+            border-color: #82c7d1
+        }
+
+        .bm_EA input {
+            width: -moz-calc(100% - 32px);
+            width: calc(100% - 32px);
+            height: 100%;
+            padding-left: 10px;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+            color: var(--black)
+        }
+
+        .bm_EA input:focus {
+            color: var(--primary)
+        }
+
+        .bm_EA button {
+            width: 32px;
+            height: 28px;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center
+        }
+
+        .bm_EA button i {
+            font-size: 17px
+        }
+
+        .bm_EA button:hover {
+            background-color: #e6f4f6;
+            -webkit-filter: none;
+            filter: none
+        }
+
+        .bm_EA button:hover i {
+            color: #2fa1b3
+        }
+
+        .bm_EA button:hover i:before {
+            content: ""
+        }
+
+        .bm_EA .bm_EB {
+            position: absolute;
+            top: 100%;
+            left: -1px;
+            width: 600px;
+            background-color: #fff;
+            z-index: 20;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, .05);
+            border: 1px solid rgba(0, 0, 0, .1);
+            font-size: 13px;
+            color: var(--dark);
+            display: none
+        }
+
+        .bm_EA .bm_EB .bm_EC a {
+            padding: 8px 10px;
+            width: 100%;
+            display: block;
+            position: relative
+        }
+
+        .bm_EA .bm_EB .bm_EC a:hover {
+            background-color: #eee;
+            color: #2fa1b3
+        }
+
+        .bm_EA .bm_EB .bm_EC a div {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            white-space: normal
+        }
+
+        .bm_EA .bm_EB .bm_EC.bm_EE a {
+            background-color: #eee
+        }
+
+        .bm_EA .bm_EB .bm_EC .bm_EF {
+            font-size: 1.1rem;
+            font-weight: 600;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            color: #ccc
+        }
+
+        .bm_EA .bm_EB .bm_EG a {
+            color: var(--primary);
+            font-weight: 600
+        }
+
+        .bm_EA.bm_EH {
+            display: -webkit-flex !important;
+            display: -moz-box !important;
+            display: flex !important
+        }
+
+        .bm_EA.bm_EH .bm_EB {
+            display: block
+        }
+
+        .bm_Iu {
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            background-color: #f3f3f3;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+            border-bottom: 1px solid #dee2e6;
+            width: 100%;
+            padding: 20px 0 10px 30px;
+            z-index: 999;
+            color: #000
+        }
+
+        .bm_Iu.bm_Cy {
+            visibility: visible;
+            opacity: 1
+        }
+
+        .bm_Iu .bm_BJ {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap
+        }
+
+        .bm_Iu .bm_Iv {
+            display: block;
+            width: 20%;
+            margin-right: 0;
+            margin-bottom: 10px;
+            line-height: 26px;
+            position: relative
+        }
+
+        .bm_Iu .bm_Iv>a>span {
+            color: #2fa1b3;
+            font-size: 1.6rem;
+            line-height: 4.2rem;
+            font-weight: 600;
+            height: 40px;
+            text-transform: uppercase;
+            display: block;
+            position: relative
+        }
+
+        .bm_Iu .bm_Iv>a>span:before {
+            content: "";
+            display: inline-block;
+            width: 3px;
+            height: -moz-calc(100% - 20px);
+            height: calc(100% - 20px);
+            position: absolute;
+            top: 10px;
+            left: -13px;
+            background-color: #2fa1b3
+        }
+
+        .bm_Iu .bm_Iv .bm_BJ {
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-direction: column
+        }
+
+        .bm_Iu .bm_Iw {
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+            font-weight: 600;
+            color: #495057
+        }
+
+        .bm_EI {
+            position: relative;
+            color: #fff;
+            height: 40px
+        }
+
+        .bm_EI .bm_EJ {
+            background: #2fa1b3;
+            z-index: 999
+        }
+
+        .bm_EI.bm_Bq .bm_EJ {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0
+        }
+
+        .bm_EI .bm_EK {
+            display: inline
+        }
+
+        .bm_EI .bm_EL {
+            overflow: hidden
+        }
+
+        .bm_EI .bm_EL:not(.bm_EM) div {
+            position: relative;
+            top: 1px
+        }
+
+        .bm_EI .bm_EL.bm_EM a {
+            height: 20px;
+            padding: 0 8px;
+            margin: 0 4px;
+            font-size: 14px;
+            line-height: 18px;
+            border-radius: 10px;
+            border: 1px solid hsla(0, 0%, 100%, .3);
+            text-transform: none;
+            font-weight: 400
+        }
+
+        .bm_EI .bm_EL.bm_EM a:hover {
+            background: hsla(0, 0%, 100%, .1)
+        }
+
+        .bm_EI .bm_EL.bm_BQ a {
+            background: #2b94a5
+        }
+
+        .bm_EI .bm_EL a {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            font-size: 1.6rem;
+            height: 40px;
+            text-transform: uppercase;
+            padding: 0 12px;
+            border-left: 1px solid hsla(0, 0%, 100%, .2);
+            color: #fff
+        }
+
+        .bm_EI .bm_EL a:hover {
+            background: #2b94a5
+        }
+
+        .bm_EI .bm_EL .bm_EN {
+            width: 16px;
+            height: 16px;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            position: relative;
+            top: -8px;
+            font-weight: 600;
+            font-size: 10px;
+            border-radius: 50%;
+            background: #db562b
+        }
+
+        .bm_EI .bm_EO {
+            margin-left: auto
+        }
+
+        .bm_EI .bm_EO button {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            font-size: 1.8rem;
+            height: 40px;
+            padding: 0 14px;
+            color: #fff;
+            border-left: 1px solid hsla(0, 0%, 100%, .2);
+            border-right: 1px solid hsla(0, 0%, 100%, .2);
+            background-color: #2b94a5
+        }
+
+        .bm_EI .bm_EO button.bm_BQ,
+        .bm_EI .bm_EO button:hover {
+            background-color: #247a88;
+            border-left: 1px solid #247a88
+        }
+
+        .bm_EI .bm_EO .bm_BE {
+            font-size: 16px
+        }
+
+        .bm_BA {
+            background-color: #fff;
+            height: 66px;
+            z-index: 110;
+            position: relative
+        }
+
+        .bm_BA .bm_AC,
+        .bm_BA .bm_l {
+            height: 100%
+        }
+
+        .bm_BA .bm_AC .bm_AL,
+        .bm_BA .bm_l .bm_AL {
+            margin-right: 10px
+        }
+
+        .bm_BA .bm_BB {
+            width: 124px;
+            height: 54px;
+            background-image: url(/images/default-skin/bm-logo.png);
+            background-position: 0 0;
+            display: inline-block;
+            vertical-align: middle;
+            background-size: 124px 54px;
+            margin-left: 10px
+        }
+
+        .bm_BA .bm_BB:hover {
+            opacity: .8
+        }
+
+        .bm_BA .bm_BC {
+            border-radius: 3px;
+            font-size: 0;
+            border: 1px solid #fff;
+            padding: 2px;
+            width: 30px;
+            height: 30px;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            margin-left: 10px
+        }
+
+        .bm_BA .bm_BC:hover {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            -webkit-filter: none;
+            filter: none
+        }
+
+        .bm_BA .bm_BC:hover .bm_BE {
+            color: #2fa1b3
+        }
+
+        .bm_BA .bm_BC:hover .bm_BE:before {
+            content: ""
+        }
+
+        .bm_BA .bm_BC .bm_BE {
+            font-size: 18px;
+            color: #6c757d
+        }
+
+        .bm_Cr {
+            direction: rtl;
+            border: 1px solid #858585;
+            font-size: 15px;
+            border-radius: 2px
+        }
+
+        .bm_H {
+            color: #212529;
+            margin-bottom: 11px;
+            width: 100%;
+            overflow: hidden
+        }
+
+        .bm_H .bm_c {
+            min-height: 20px;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            font-size: 15px;
+            position: relative;
+            cursor: pointer;
+            font-weight: 600;
+            text-transform: uppercase
+        }
+
+        .bm_H .bm_AL .bm_c {
+            color: #2fa1b3
+        }
+
+        .bm_H .bm_AL .bm_c:hover {
+            color: #1c616b
+        }
+
+        .bm_H .bm_m .bm_c {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            color: #6c757d
+        }
+
+        .bm_H .bm_m .bm_c:first-child {
+            color: #2fa1b3
+        }
+
+        .bm_H .bm_m .bm_c:first-child:hover {
+            color: #1c616b
+        }
+
+        .bm_H .bm_m .bm_c:hover {
+            color: #000
+        }
+
+        .bm_H .bm_m .bm_c:not(:first-child) {
+            padding-left: 28px
+        }
+
+        .bm_H .bm_m .bm_c:not(:first-child):after {
+            font-family: bm-font-icon !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            -moz-font-feature-settings: normal !important;
+            font-feature-settings: normal !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            speak: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            content: "";
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-size: 1rem;
+            cursor: default;
+            color: #6c757d
+        }
+
+        .bm_H .bm_m .bm_BP {
+            margin-left: 5px
+        }
+
+        .bm_H .bm_m .bm_BP.bm_AG .bm_BE:before {
+            font-size: 12px
+        }
+
+        .bm_H .bm_m .bm_BP.bm_BQ .bm_BE:before {
+            content: ""
+        }
+
+        .bm_H .bm_AL .bm_c,
+        .bm_H .edit {
+            padding: 0 5px
+        }
+
+        .bm_H .edit {
+            font-weight: 600;
+            color: var(--primary)
+        }
+
+        .bm_H .edit span {
+            text-transform: uppercase
+        }
+
+        .bm_H .edit .ic-edit {
+            margin-right: 5px;
+            font-size: 12px
+        }
+
+        .bm_H .edit .ic-edit:before {
+            font-family: bm-font-icon !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            -moz-font-feature-settings: normal !important;
+            font-feature-settings: normal !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            speak: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            content: ""
+        }
+
+        .bm_H .edit:hover .icon:before {
+            content: ""
+        }
+
+        .bm_AV .bm_H,
+        .bm_AW .bm_H,
+        .bm_J .bm_H {
+            margin-bottom: 15px
+        }
+
+        #nprogress {
+            pointer-events: none
+        }
+
+        #nprogress .bar {
+            background: #29d;
+            position: fixed;
+            z-index: 1031;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px
+        }
+
+        #nprogress .peg {
+            display: block;
+            position: absolute;
+            right: 0;
+            width: 100px;
+            height: 100%;
+            box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+            opacity: 1;
+            -webkit-transform: rotate(3deg) translateY(-4px);
+            -moz-transform: rotate(3deg) translateY(-4px);
+            transform: rotate(3deg) translateY(-4px)
+        }
+
+        #nprogress .spinner {
+            display: block;
+            position: fixed;
+            z-index: 1031;
+            top: 15px;
+            right: 15px
+        }
+
+        #nprogress .spinner-icon {
+            width: 18px;
+            height: 18px;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border-color: #29d transparent transparent #29d;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 50%;
+            -webkit-animation: nprogress-spinner .4s linear infinite;
+            -moz-animation: nprogress-spinner .4s linear infinite;
+            animation: nprogress-spinner .4s linear infinite
+        }
+
+        .nprogress-custom-parent {
+            overflow: hidden;
+            position: relative
+        }
+
+        .nprogress-custom-parent #nprogress .bar,
+        .nprogress-custom-parent #nprogress .spinner {
+            position: absolute
+        }
+
+        @-webkit-keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg)
+            }
+
+            to {
+                -webkit-transform: rotate(1turn)
+            }
+        }
+
+        @-moz-keyframes nprogress-spinner {
+            0% {
+                -moz-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -moz-transform: rotate(1turn);
+                transform: rotate(1turn)
+            }
+        }
+
+        @keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -webkit-transform: rotate(1turn);
+                -moz-transform: rotate(1turn);
+                transform: rotate(1turn)
+            }
+        }
+
+        .bm_Av>.bm_O {
+            --color: #2fa1b3
+        }
+
+        .bm_Av .bm_AN {
+            background-color: #eef8f9;
+            padding: 15px
+        }
+
+        .bm_Av .bm_AN .bm_AP {
+            margin-top: 10px
+        }
+
+        .bm_Av .bm_AN .bm_L {
+            width: 300px;
+            height: 150px
+        }
+
+        .bm_Av .bm_AN .bm_E {
+            padding-top: 0
+        }
+
+        .bm_Av .bm_AN .bm_E:not(:first-child) {
+            border-top: none
+        }
+
+        .bm_Av .bm_AN .bm_O {
+            font-size: 19px;
+            line-height: 2.5rem
+        }
+
+        .bm_Ay .bm_AN {
+            background-color: #fcf2ee;
+            padding: 15px 15px 12px
+        }
+
+        .bm_Ay .bm_AN .bm_AP {
+            margin-top: 10px
+        }
+
+        .bm_Ay .bm_AN .bm_BO {
+            width: 300px;
+            height: 135px;
+            border-radius: 4px;
+            overflow: hidden
+        }
+
+        .bm_Ay .bm_AN .bm_BO .bm_Bi {
+            width: 108px;
+            height: 80px;
+            float: left;
+            border-radius: 0;
+            margin-bottom: 2px
+        }
+
+        .bm_Ay .bm_AN .bm_BO .bm_Bi:first-child {
+            width: 190px;
+            height: 135px;
+            margin-right: 2px
+        }
+
+        .bm_Ay .bm_AN .bm_E {
+            margin-top: 0
+        }
+
+        .bm_Ay .bm_AN .bm_E:not(:first-child) {
+            border-top: none
+        }
+
+        .bm_Ay .bm_AN .bm_E .bm_M .bm_O {
+            line-height: 2.5rem;
+            font-size: 19px
+        }
+
+        .bm_BR,
+        .bm_BT {
+            display: block
+        }
+
+        .bm_IX .bm_Ff {
+            padding: 15px 15px 8px;
+            background-color: #f7f7f7
+        }
+
+        .bm_Ax .bm_Ff {
+            padding: 15px;
+            background-color: #f7f7f7;
+            overflow: hidden;
+            position: relative;
+            font-size: 10px;
+            line-height: 2.8em;
+            color: #09f;
+            text-align: center
+        }
+
+        .bm_Ax .bm_BI {
+            display: inline-block;
+            padding: 0;
+            margin-right: 15px;
+            white-space: nowrap
+        }
+
+        .bm_Ax .bm_BI.bm_Z:after {
+            content: "▴";
+            color: #5bb83e;
+            padding-left: .2em
+        }
+
+        .bm_Ax .bm_BI.bm_IY:after {
+            content: "▾";
+            color: #e93f2e;
+            padding-left: .2em
+        }
+
+        .bm_Ax .bm_BI:hover {
+            color: var(--primary)
+        }
+
+        .bm_Ax .bm_IZ {
+            font-size: 100%;
+            color: #aab5f0
+        }
+
+        .bm_Ax .bm_Ia {
+            font-size: 110%;
+            color: #aac2f0
+        }
+
+        .bm_Ax .bm_Ib {
+            font-size: 120%;
+            color: #99c3ee
+        }
+
+        .bm_Ax .bm_Ic {
+            font-size: 130%;
+            color: #9ce
+        }
+
+        .bm_Ax .bm_Ie {
+            font-size: 140%;
+            color: #99d3ee
+        }
+
+        .bm_Ax .bm_If {
+            font-size: 150%;
+            color: #a0d0ff
+        }
+
+        .bm_Ax .bm_Ig {
+            font-size: 160%;
+            color: #a0ddff
+        }
+
+        .bm_Ax .bm_Ih {
+            font-size: 170%;
+            color: #a0d6ff
+        }
+
+        .bm_Ax .bm_Ii {
+            font-size: 180%;
+            color: #90caf0
+        }
+
+        .bm_Ax .bm_Ij {
+            font-size: 190%;
+            color: #90c5f0
+        }
+
+        .bm_Ax .bm_Ik {
+            font-size: 200%;
+            color: #90baf0
+        }
+
+        .bm_Ax .bm_Il {
+            font-size: 210%;
+            color: #90a8dd
+        }
+
+        .bm_Ax .bm_Im {
+            font-size: 220%;
+            color: #90a0dd
+        }
+
+        .bm_Ax .bm_In {
+            font-size: 230%;
+            color: #90b4f0
+        }
+
+        .bm_Ax .bm_Io {
+            font-size: 240%;
+            color: #90c5f0
+        }
+
+        .bm_Ax .bm_Ip {
+            font-size: 250%;
+            color: #33cddd
+        }
+
+        .bm_Ax .bm_Iq {
+            font-size: 260%;
+            color: #39d
+        }
+
+        .bm_Ax .bm_Ir {
+            font-size: 270%;
+            color: #0cf
+        }
+
+        .bm_Ax .bm_Is {
+            font-size: 280%;
+            color: #0cf
+        }
+
+        .bm_Ax .bm_It {
+            font-size: 290%;
+            color: #0cf
+        }
+
+        .bm_Gr {
+            background: #fef9e6 url(https://baomoi-static.zadn.vn/web/styles/img/global-map.png) top/330px 164px no-repeat;
+            padding: 15px;
+            min-height: 500px
+        }
+
+        .bm_Gr .bm_Fe {
+            display: inline-block
+        }
+
+        .bm_Gr .bm_Fe .bm_O {
+            margin-bottom: 12px;
+            line-height: 24px
+        }
+
+        .bm_Gr .bm_Fe .bm_BE {
+            font-size: 18px;
+            margin-right: 10px;
+            color: #db562b
+        }
+
+        .bm_Gr .bm_Fe .bm_Gs {
+            color: #db562b;
+            display: inline-block;
+            font-size: 24px;
+            text-transform: uppercase
+        }
+
+        .bm_Gr .bm_Fe:hover .bm_BE,
+        .bm_Gr .bm_Fe:hover .bm_Gs {
+            color: #2fa1b3
+        }
+
+        .bm_Gr select {
+            width: 100%;
+            height: 32px;
+            line-height: 32px;
+            border-radius: 3px;
+            padding: 0 5px;
+            margin-bottom: 14px;
+            border: 1px solid #f3eac4;
+            background-color: #fefcf0;
+            cursor: pointer
+        }
+
+        .bm_Gr .bm_Cq,
+        .bm_Gr select {
+            font-size: 16px;
+            font-weight: 700
+        }
+
+        .bm_Gr .bm_Cq {
+            text-align: right;
+            display: block
+        }
+
+        .bm_Gr .bm_Eb,
+        .bm_Gr .bm_F {
+            display: none
+        }
+
+        .bm_Aw .bm_AN {
+            padding: 15px 15px 8px;
+            background-color: #f7f7f7
+        }
+
+        .bm_Aw.bm_Gq>.bm_O:hover:before {
+            background-color: var(--primary)
+        }
+
+        .bm_Aw.bm_Gq>.bm_O:before {
+            bottom: 5px
+        }
+
+        .bm_Aw.bm_Gq>.bm_O a {
+            font-size: 24px;
+            line-height: 26px
+        }
+
+        .bm_Aw.bm_Gq>.bm_O a:before {
+            content: none
+        }
+
+        .bm_AH .bm_GE {
+            margin-bottom: 10px
+        }
+
+        .bm_AH .bm_GE .bm_E {
+            border-bottom: 1px solid #e9ecef;
+            margin-bottom: 15px;
+            padding-bottom: 5px
+        }
+
+        .bm_GF {
+            border: 1px solid #eee;
+            padding: 8px 15px 0;
+            background: #f7f8fa url(https://baomoi-static.zadn.vn/web/styles/img/pls-bg-1.png) -moz-calc(50% - 60px) top/600px auto no-repeat;
+            background: #f7f8fa url(https://baomoi-static.zadn.vn/web/styles/img/pls-bg-1.png) calc(50% - 60px) top/600px auto no-repeat
+        }
+
+        .bm_GF .bm_Ff {
+            padding: 5px 1px;
+            overflow: hidden;
+            position: relative;
+            font-size: 10px;
+            line-height: 2.8em;
+            color: #09f;
+            text-align: center;
+            height: 65px
+        }
+
+        .bm_GF .bm_O {
+            font-size: 11px;
+            font-weight: 600
+        }
+
+        .bm_GF .bm_GG {
+            position: absolute;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-animation: bm_GH 70s linear infinite;
+            -moz-animation: bm_GH 70s linear infinite;
+            animation: bm_GH 70s linear infinite;
+            will-change: transform
+        }
+
+        .bm_GF .bm_GG.bm_GI,
+        .bm_GF .bm_GG:hover {
+            -webkit-animation-play-state: paused;
+            -moz-animation-play-state: paused;
+            animation-play-state: paused
+        }
+
+        .bm_GF .bm_GJ {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            height: 46px;
+            width: 90px;
+            padding: .5rem;
+            background-color: #fff;
+            border: 1px solid #fff;
+            box-shadow: 0 0 1px rgba(0, 0, 0, .68);
+            margin: 0 7.5px
+        }
+
+        .bm_GF .bm_GJ figure {
+            width: 100%;
+            height: 100%
+        }
+
+        .bm_GF .bm_GJ img {
+            height: 100%;
+            object-fit: contain
+        }
+
+        @-webkit-keyframes bm_GH {
+            0% {
+                -webkit-transform: translate(0);
+                transform: translate(0)
+            }
+
+            to {
+                -webkit-transform: translate(-50%);
+                transform: translate(-50%)
+            }
+        }
+
+        @-moz-keyframes bm_GH {
+            0% {
+                -moz-transform: translate(0);
+                transform: translate(0)
+            }
+
+            to {
+                -moz-transform: translate(-50%);
+                transform: translate(-50%)
+            }
+        }
+
+        @keyframes bm_GH {
+            0% {
+                -webkit-transform: translate(0);
+                -moz-transform: translate(0);
+                transform: translate(0)
+            }
+
+            to {
+                -webkit-transform: translate(-50%);
+                -moz-transform: translate(-50%);
+                transform: translate(-50%)
+            }
+        }
+
+        .bm_Az {
+            line-height: 1.3
+        }
+
+        .bm_Az .bm_Ff {
+            padding-bottom: 8px;
+            background-color: #f7f7f7
+        }
+
+        .bm_Ge {
+            width: 100%;
+            margin-top: 16px;
+            position: relative;
+            font-size: 16px
+        }
+
+        .bm_Ge:after {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: .17em;
+            vertical-align: .17em;
+            content: "";
+            border-top: .2em solid;
+            border-right: .2em solid transparent;
+            border-bottom: 0;
+            border-left: .2em solid transparent;
+            position: absolute;
+            right: 10px;
+            top: 15px
+        }
+
+        .bm_Ge select {
+            line-height: 30px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            font-weight: 600;
+            font-size: 14px;
+            padding-left: 10px;
+            width: 100%
+        }
+
+        .bm_Gf {
+            padding: 15px
+        }
+
+        .bm_Gg {
+            position: relative;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            justify-content: space-between;
+            line-height: 1.3
+        }
+
+        .bm_Gg .bm_Bi {
+            width: 60px;
+            height: 60px
+        }
+
+        .bm_Gg .bm_Gh {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex-flow: column wrap;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-flow: column wrap;
+            margin-right: 20px
+        }
+
+        .bm_Gg .bm_Gh .bm_Gi {
+            font-size: 3.6rem;
+            font-weight: 700
+        }
+
+        .bm_Gg .bm_Gh .bm_Gj {
+            font-size: 1.4rem
+        }
+
+        .bm_Gg .bm_Gk {
+            display: block;
+            float: right;
+            width: 50%;
+            border-left: 1px solid #ddd
+        }
+
+        .bm_Gg .bm_Gk span {
+            display: block;
+            font-size: 1.4rem;
+            margin-left: 13px;
+            position: relative
+        }
+
+        .bm_Gl {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            font-size: 1.4rem;
+            padding-top: 14px
+        }
+
+        .bm_Gl li {
+            text-align: center;
+            width: 25%;
+            padding: 0 2px
+        }
+
+        .bm_Gl li:not(:first-child) {
+            border-left: 1px solid #ddd
+        }
+
+        .bm_Gl .bm_Gm,
+        .bm_Gl .bm_Gn {
+            margin-bottom: 10px
+        }
+
+        .bm_Gl .bm_Gn img {
+            width: 40px
+        }
+
+        .bm_Gl .bm_Go {
+            font-size: 12px
+        }
+
+        .bm_Gp {
+            padding: 9px 15px 0;
+            border-top: 1px solid #fff;
+            background-color: #f7f7f7;
+            font-size: 1.4rem
+        }
+
+        .bm_Gp:after {
+            display: block;
+            clear: both;
+            content: ""
+        }
+
+        .bm_Gp li {
+            float: left;
+            width: 50%;
+            font-weight: 600
+        }
+
+        .bm_Gp li a {
+            display: inline-block;
+            padding: 6px 30px 6px 0
+        }
+
+        #app .tippy-box[data-animation=fade][data-state=hidden] {
+            opacity: 0
+        }
+
+        #app [data-tippy-root] {
+            max-width: -moz-calc(100vw - 10px);
+            max-width: calc(100vw - 10px)
+        }
+
+        #app .tippy-box {
+            position: relative;
+            background-color: #333;
+            color: #fff;
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 1.4;
+            outline: 0;
+            transition-property: visibility, opacity, -webkit-transform;
+            -moz-transition-property: transform, visibility, opacity, -moz-transform;
+            transition-property: transform, visibility, opacity;
+            transition-property: transform, visibility, opacity, -webkit-transform, -moz-transform
+        }
+
+        #app .tippy-box[data-placement^=top]>.tippy-arrow {
+            bottom: 0
+        }
+
+        #app .tippy-box[data-placement^=top]>.tippy-arrow:before {
+            bottom: -5px;
+            left: 0;
+            border-width: 6px 6px 0;
+            border-top-color: initial;
+            -webkit-transform-origin: center top;
+            -moz-transform-origin: center top;
+            transform-origin: center top
+        }
+
+        #app .tippy-box[data-placement^=bottom]>.tippy-arrow {
+            top: 0
+        }
+
+        #app .tippy-box[data-placement^=bottom]>.tippy-arrow:before {
+            top: -7px;
+            left: 0;
+            border-width: 0 8px 8px;
+            border-bottom-color: initial;
+            -webkit-transform-origin: center bottom;
+            -moz-transform-origin: center bottom;
+            transform-origin: center bottom
+        }
+
+        #app .tippy-box[data-placement^=left]>.tippy-arrow {
+            right: 0
+        }
+
+        #app .tippy-box[data-placement^=left]>.tippy-arrow:before {
+            border-width: 8px 0 8px 8px;
+            border-left-color: initial;
+            right: -7px;
+            -webkit-transform-origin: center left;
+            -moz-transform-origin: center left;
+            transform-origin: center left
+        }
+
+        #app .tippy-box[data-placement^=right]>.tippy-arrow {
+            left: 0
+        }
+
+        #app .tippy-box[data-placement^=right]>.tippy-arrow:before {
+            left: -7px;
+            border-width: 8px 8px 8px 0;
+            border-right-color: initial;
+            -webkit-transform-origin: center right;
+            -moz-transform-origin: center right;
+            transform-origin: center right
+        }
+
+        #app .tippy-box[data-inertia][data-state=visible] {
+            -moz-transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11);
+            transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11)
+        }
+
+        #app .tippy-arrow {
+            width: 16px;
+            height: 16px;
+            color: #333
+        }
+
+        #app .tippy-arrow:before {
+            content: "";
+            position: absolute;
+            border-color: transparent;
+            border-style: solid
+        }
+
+        #app .tippy-content {
+            position: relative;
+            padding: 5px 9px;
+            z-index: 1
+        }
+
+        #app .tippy-box {
+            font-size: 16px;
+            line-height: 1.3
+        }
+
+        .bm_U {
+            background: #fff url(https://baomoi-static.zadn.vn/web/styles/img/covid-sidebar-bg-6.png) top/420px 115px no-repeat;
+            padding: 43px 0 0;
+            border: 1px solid #e9ecef;
+            line-height: 1.3
+        }
+
+        .bm_U .bm_W .bm_X {
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 700
+        }
+
+        .bm_U table {
+            font-size: 16px;
+            font-weight: 700
+        }
+
+        .bm_U table thead th {
+            width: 90px;
+            padding: 10px 10px 5px;
+            text-align: right
+        }
+
+        .bm_U table thead th:first-child {
+            text-align: left;
+            width: 140px
+        }
+
+        .bm_U table thead th span {
+            display: none
+        }
+
+        .bm_U table thead th:nth-child(4),
+        .bm_U table thead th:nth-child(5) {
+            display: none
+        }
+
+        .bm_U table thead th .bm_Y {
+            margin-right: 10px
+        }
+
+        .bm_U table tbody tr:nth-child(odd) {
+            background-color: rgba(47, 161, 179, .1)
+        }
+
+        .bm_U table tbody tr:first-child {
+            background-color: #fff8e2
+        }
+
+        .bm_U table tbody tr:first-child:hover {
+            background-color: #ffeba9
+        }
+
+        .bm_U table tbody tr:first-child td:first-child {
+            text-transform: uppercase
+        }
+
+        .bm_U table tbody tr:hover {
+            background-color: rgba(47, 161, 179, .2)
+        }
+
+        .bm_U table tbody td {
+            position: relative;
+            padding: 9px 10px;
+            white-space: nowrap;
+            text-align: right
+        }
+
+        .bm_U table tbody td:first-child {
+            padding-left: 15px;
+            text-align: left;
+            font-size: 17px
+        }
+
+        .bm_U table tbody td:nth-child(2) {
+            padding-right: 25px;
+            padding-left: 0
+        }
+
+        .bm_U table tbody td:nth-child(3) {
+            padding-right: 25px;
+            padding-left: 0;
+            color: red
+        }
+
+        .bm_U table tbody td:nth-child(4),
+        .bm_U table tbody td:nth-child(5) {
+            display: none
+        }
+
+        .bm_U table tbody td.bm_Z:after {
+            content: "";
+            position: absolute;
+            top: 20px;
+            right: 13px;
+            color: red;
+            width: 0;
+            height: 0;
+            margin-left: .17em;
+            vertical-align: .17em;
+            border-top: 0;
+            border-right: .2em solid transparent;
+            border-bottom: .2em solid;
+            border-left: .2em solid transparent
+        }
+
+        .bm_U .bm_Cq {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-justify-content: flex-end;
+            -moz-box-pack: end;
+            justify-content: flex-end;
+            margin: 10px 0;
+            font-size: 13px;
+            padding-right: 25px;
+            font-weight: 700;
+            text-transform: uppercase
+        }
+
+        .bm_Cq {
+            display: block
+        }
+
+        .bm_Au .bm_Cs {
+            padding: 15px;
+            background-color: #f7f7f7
+        }
+
+        .bm_Au .bm_j>.bm_O {
+            border: 1px solid #e27957;
+            color: #db562b;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            border-radius: 3px;
+            display: block;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 7px
+        }
+
+        .bm_Au .bm_j>.bm_O a {
+            display: inline-block;
+            padding: 5px 10px
+        }
+
+        .bm_Au .bm_j>.bm_O:hover {
+            border-color: #46bccf;
+            color: #2fa1b3
+        }
+
+        .bm_Au .bm_j:not(:last-child) {
+            margin-bottom: 20px
+        }
+
+        .bm_At {
+            position: relative
+        }
+
+        .bm_Au,
+        .bm_Av,
+        .bm_Aw,
+        .bm_Ax,
+        .bm_Ay,
+        .bm_Az {
+            --color: #db562b
+        }
+
+        .bm_Au>.bm_O,
+        .bm_Av>.bm_O,
+        .bm_Aw>.bm_O,
+        .bm_Ax>.bm_O,
+        .bm_Ay>.bm_O,
+        .bm_Az>.bm_O {
+            text-transform: uppercase;
+            margin-bottom: 7px;
+            font-size: 3.6rem;
+            line-height: 4.4rem;
+            background-repeat: repeat-x;
+            color: var(--color);
+            position: relative;
+            background-position: 0 -1279px;
+            width: 100%
+        }
+
+        .bm_Au>.bm_O a,
+        .bm_Av>.bm_O a,
+        .bm_Aw>.bm_O a,
+        .bm_Ax>.bm_O a,
+        .bm_Ay>.bm_O a,
+        .bm_Az>.bm_O a {
+            display: block
+        }
+
+        .bm_Au>.bm_O:hover a:before,
+        .bm_Av>.bm_O:hover a:before,
+        .bm_Aw>.bm_O:hover a:before,
+        .bm_Ax>.bm_O:hover a:before,
+        .bm_Ay>.bm_O:hover a:before,
+        .bm_Az>.bm_O:hover a:before {
+            background-color: var(--primary)
+        }
+
+        .bm_Au>.bm_O>a span,
+        .bm_Au>.bm_O>span,
+        .bm_Av>.bm_O>a span,
+        .bm_Av>.bm_O>span,
+        .bm_Aw>.bm_O>a span,
+        .bm_Aw>.bm_O>span,
+        .bm_Ax>.bm_O>a span,
+        .bm_Ax>.bm_O>span,
+        .bm_Ay>.bm_O>a span,
+        .bm_Ay>.bm_O>span,
+        .bm_Az>.bm_O>a span,
+        .bm_Az>.bm_O>span {
+            background-color: #fff;
+            padding-right: 15px;
+            z-index: 1;
+            position: relative;
+            display: inline-block
+        }
+
+        .bm_Au>.bm_O:before,
+        .bm_Au>.bm_O>a:before,
+        .bm_Av>.bm_O:before,
+        .bm_Av>.bm_O>a:before,
+        .bm_Aw>.bm_O:before,
+        .bm_Aw>.bm_O>a:before,
+        .bm_Ax>.bm_O:before,
+        .bm_Ax>.bm_O>a:before,
+        .bm_Ay>.bm_O:before,
+        .bm_Ay>.bm_O>a:before,
+        .bm_Az>.bm_O:before,
+        .bm_Az>.bm_O>a:before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            background-color: var(--color)
+        }
+
+        .bm_Au>.bm_O>a:before,
+        .bm_Av>.bm_O>a:before,
+        .bm_Aw>.bm_O>a:before,
+        .bm_Ax>.bm_O>a:before,
+        .bm_Ay>.bm_O>a:before,
+        .bm_Az>.bm_O>a:before {
+            left: 0;
+            bottom: 10px
+        }
+
+        .bm_Au>.bm_O>span:before,
+        .bm_Av>.bm_O>span:before,
+        .bm_Aw>.bm_O>span:before,
+        .bm_Ax>.bm_O>span:before,
+        .bm_Ay>.bm_O>span:before,
+        .bm_Az>.bm_O>span:before {
+            left: 100%
+        }
+
+        #bm_AT {
+            position: relative;
+            overflow: hidden
+        }
+
+        .bm_AR {
+            padding-top: 15px;
+            padding-bottom: 15px
+        }
+
+        .bm_A,
+        .bm_AA,
+        .bm_AB,
+        .bm_AE,
+        .bm_AF,
+        .bm_AI,
+        .bm_AU,
+        .bm_AV,
+        .bm_AW,
+        .bm_AX,
+        .bm_AY,
+        .bm_b,
+        .bm_G,
+        .bm_J,
+        .bm_k,
+        .bm_R {
+            position: relative
+        }
+
+        .bm_AY {
+            background: #f4f4f4
+        }
+
+        * {
+            text-rendering: optimizeLegibility
+        }
+
+        html.touch * {
+            text-rendering: optimizeSpeed
+        }
+
+        :focus {
+            outline: none
+        }
+
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box
+        }
+
+        html {
+            font-size: 62.5%;
+            line-height: 1.15
+        }
+
+        b,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        strong {
+            font-weight: 600
+        }
+
+        ol,
+        p,
+        ul {
+            list-style: none
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: inherit;
+            font-style: normal;
+            font-stretch: normal;
+            letter-spacing: normal
+        }
+
+        a.active,
+        a:hover {
+            text-decoration: none;
+            color: #2fa1b3
+        }
+
+        a.bm-btn:hover {
+            color: inherit
+        }
+
+        div,
+        p {
+            word-break: break-word
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            line-height: 1.3;
+            font-family: baomoi, AvenirNextCondensed-Medium, HelveticaNeue-CondensedBold, "sans-serif-condensed", Calibri, Corbel, Liberation Sans Narrow, Lohit Odia, sans-serif;
+            font-size: 14px;
+            color: var(--dark);
+            background-color: var(--layout-bg);
+            font-weight: 400
+        }
+
+        body input::-webkit-input-placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body input::-webkit-input-placeholder,
+        body input::placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body input:-ms-input-placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body input:-moz-input-placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body textarea::-webkit-input-placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body textarea::-webkit-input-placeholder,
+        body textarea::placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body textarea:-ms-input-placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        body textarea:-moz-input-placeholder {
+            font-size: 14px;
+            text-align: left;
+            color: var(--text-placeholder) !important;
+            font-weight: 400
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            padding: 0;
+            border: none;
+            font: inherit;
+            color: inherit;
+            background-color: transparent;
+            word-break: normal
+        }
+
+        button,
+        optgroup,
+        select {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        img,
+        video {
+            height: auto;
+            width: 100%
+        }
+
+        button {
+            cursor: pointer
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        td,
+        th {
+            padding: 0
+        }
+
+        td:not([align]),
+        th:not([align]) {
+            text-align: left
+        }
+
+        blockquote,
+        body,
+        dd,
+        dl,
+        dt,
+        fieldset,
+        figure,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        hr,
+        html,
+        iframe,
+        legend,
+        li,
+        ol,
+        p,
+        pre,
+        textarea,
+        ul {
+            margin: 0;
+            padding: 0
+        }
+
+        figure {
+            line-height: 0
+        }
+
+        figure img[src=""] {
+            display: none
+        }
+
+        figure img {
+            height: 100%
+        }
+
+        main.bm-section {
+            padding: 0 var(--padding-section);
+            margin: 0 auto
+        }
+
+        main.bm-section>.container {
+            min-height: -moz-calc(100% - 158px);
+            min-height: calc(100% - 158px);
+            margin-top: 70px
+        }
+
+        body ::-webkit-scrollbar {
+            width: 6px
+        }
+
+        body ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset #fff;
+            border-radius: 4px
+        }
+
+        body ::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .5)
+        }
+
+        :root {
+            --black: #000;
+            --blue: #007bff;
+            --indigo: #6610f2;
+            --purple: #6f42c1;
+            --pink: #e83e8c;
+            --red: #d9534f;
+            --orange: #fd7e14;
+            --yellow: #f0ad4e;
+            --green: #28a745;
+            --teal: #20c997;
+            --cyan: #17a2b8;
+            --white: #fff;
+            --gray: #6c757d;
+            --gray-dark: #343a40;
+            --primary: #2fa1b3;
+            --secondary: #db562b;
+            --third: #ffc810;
+            --success: #28a745;
+            --info: #17a2b8;
+            --warning: #f0ad4e;
+            --danger: var(--secondary);
+            --light: #e9ecef;
+            --dark: #212529;
+            --border-primary: var(--primary);
+            --breakpoint-xs: 0;
+            --breakpoint-mini: 240px;
+            --breakpoint-ip-5: 320px;
+            --breakpoint-a360: 360px;
+            --breakpoint-ip-6: 375px;
+            --breakpoint-ip-6p: 414px;
+            --breakpoint-sm: 482px;
+            --breakpoint-md: 768px;
+            --breakpoint-lg: 1024px;
+            --breakpoint-xl-1: 1280px;
+            --breakpoint-xl-2: 1510px;
+            --breakpoint-xl-3: 1760px;
+            --breakpoint-xl-4: 2000px;
+            --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+        }
+
+        :global .reset-height {
+            width: 100% !important;
+            height: auto !important;
+            line-height: 0
+        }
+
+        :global .reset-size {
+            width: auto !important;
+            height: auto !important
+        }
+
+        :global .is-fullwidth {
+            width: 100%
+        }
+
+        :global .is-flash {
+            background-color: var(--alpha-bg);
+            -webkit-animation: frameOpacity 1s linear;
+            -moz-animation: frameOpacity 1s linear;
+            animation: frameOpacity 1s linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            animation-iteration-count: infinite
+        }
+
+        :global .is-120x120 {
+            width: 120px;
+            height: 120px
+        }
+
+        :global .is-170x170 {
+            width: 170px;
+            height: 170px
+        }
+
+        :global .is-190x190 {
+            width: 190px;
+            height: 190px
+        }
+
+        :global .is-210x118 {
+            width: 210px;
+            height: 118px
+        }
+
+        :global .is-290x290 {
+            width: 290px;
+            height: 290px
+        }
+
+        :global .is-95x95 {
+            width: 95px;
+            height: 95px
+        }
+
+        :global .is-80x80 {
+            width: 80px;
+            height: 80px
+        }
+
+        :global .is-60x60 {
+            width: 60px;
+            height: 60px
+        }
+
+        :global .is-50x50 {
+            width: 50px;
+            height: 50px
+        }
+
+        :global .is-46x46 {
+            width: 46px;
+            height: 46px
+        }
+
+        :global .is-40x40 {
+            width: 40px;
+            height: 40px
+        }
+
+        :global .is-38x38 {
+            width: 38px;
+            height: 38px
+        }
+
+        :global .is-20x20 {
+            width: 20px;
+            height: 20px
+        }
+
+        :global .is-w-290 {
+            width: 290px
+        }
+
+        :global .is-w-210 {
+            width: 210px
+        }
+
+        :global .is-w-250 {
+            width: 250px
+        }
+
+        :global .is-w-190 {
+            width: 190px
+        }
+
+        :global .is-w-150 {
+            width: 150px
+        }
+
+        :global .is-w-140 {
+            width: 140px
+        }
+
+        :global .is-w-107 {
+            width: 107px
+        }
+
+        :global .circle {
+            border-radius: 999px !important
+        }
+
+        :global .margin-x-9_5 {
+            margin: 0 -9.5px !important
+        }
+
+        :global .margin-top-30 {
+            margin-top: 30px !important
+        }
+
+        :global .is-rounded {
+            overflow: hidden;
+            border-radius: 999px !important
+        }
+
+        :global .radius-4 {
+            border-radius: 4px
+        }
+
+        :global .radius-2 {
+            border-radius: 2px
+        }
+
+        :global .circle-transition {
+            -moz-transition: border-radius 1s ease-out;
+            transition: border-radius 1s ease-out;
+            border-radius: 999px !important
+        }
+
+        :global .rotate-transition--on {
+            -webkit-animation-name: spin;
+            -moz-animation-name: spin;
+            animation-name: spin;
+            -webkit-animation-duration: 12s;
+            -moz-animation-duration: 12s;
+            animation-duration: 12s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            animation-iteration-count: infinite
+        }
+
+        :global .rotate-transition--off {
+            -webkit-animation-name: spin-off;
+            -moz-animation-name: spin-off;
+            animation-name: spin-off;
+            -webkit-animation-duration: .5s;
+            -moz-animation-duration: .5s;
+            animation-duration: .5s;
+            -moz-transition: .5s ease-out .5s;
+            transition: .5s ease-out .5s
+        }
+
+        :global .bold {
+            font-weight: 700
+        }
+
+        :global .pull-left {
+            float: left
+        }
+
+        :global .pull-right {
+            float: right
+        }
+
+        :global .clearfix:after {
+            display: block;
+            clear: both;
+            content: ""
+        }
+
+        :global .bm-center-vertical {
+            display: -webkit-flex !important;
+            display: -moz-box !important;
+            display: flex !important;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center
+        }
+
+        :global .bor-b-1 {
+            border-bottom: 1px solid var(--border-secondary)
+        }
+
+        :global .disabled {
+            pointer-events: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            opacity: .3;
+            cursor: none
+        }
+
+        :global .center-vertical {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-flex: 1 1;
+            -moz-box-flex: 1;
+            flex: 1 1;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center
+        }
+
+        :global .is-hide {
+            display: none
+        }
+
+        :global .is-show {
+            display: block !important
+        }
+
+        :global .is-hidden {
+            visibility: hidden;
+            opacity: 0;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none
+        }
+
+        :global .is-18x18 {
+            width: 18px;
+            height: 18px
+        }
+
+        :global .is-center {
+            display: -webkit-flex;
+            display: -moz-box;
+            display: flex;
+            -webkit-align-self: center;
+            align-self: center;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            align-items: center
+        }
+
+        :global .is-upper {
+            text-transform: uppercase
+        }
+
+        :global .is-cap {
+            text-transform: capitalize
+        }
+
+        :global .is-initial {
+            text-transform: none
+        }
+
+        :global .is-normal {
+            line-height: normal
+        }
+
+        :global .is-text-center {
+            text-align: center
+        }
+
+        :global .is-oneline {
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+
+        :global .is-max-index {
+            z-index: 9999 !important
+        }
+
+        :global body.has-modal {
+            overflow: hidden
+        }
+    </style><noscript data-n-css=""></noscript>
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/main-37e4e6bb83be37c7f49b.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/webpack-3fbf6fefd803c0da2e8c.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/framework.36e5d30ecc6dc4b81c51.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/da7b42b0de41bffead1e2448c4f5aa9361ab252d.99ce3115b6eed054039b.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/5f19495f71eaf8e9c15eca8defee098bc5b5a080.9bf7b7971489a200f3c6.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/b95500b72f9b9cb184905710f101fa2283e1d0d3.8da782e12b7788f5033a.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/914980c3def8c6577b20364a6a4ae6ae69e13da2.4796a60ada94d2b6c3c3.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/914980c3def8c6577b20364a6a4ae6ae69e13da2_CSS.a83a6a4548b93404854d.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/6ad0bd8aedc842ee5db207ca79c9134c90690b57.ff640ebb8c9d2154ada6.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/pages/_app-0a6902b18cea8e17165c.js"
+        as="script" />
+    <link rel="preload"
+        href="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/pages/home-69db138580f90a63697e.js"
+        as="script" />
+</head>
+
+<body id="app">
+    <div id="__next">
+        <header class="bm_BA">
+            <div class="bm_AC">
+                <div class="bm_l">
+                    <div class="bm_m"><a href="/" class="bm_BB"></a>
+                        <form>
+                            <div class="bm_EA"><input type="text" placeholder="Nhập nội dung tìm kiếm"
+                                    value="" /><button class="bm_BP undefined" tabindex="0" type="button"
+                                    aria-label="Button"><i class="bm_BE bm_IF"></i></button></div>
+                        </form>
+                    </div>
+                    <div class="bm_AL"><a href="https://m.baomoi.com/"><button class="bm_BP bm_BC undefined"
+                                tabindex="0" type="button" aria-label="Button"><i class="bm_BE bm_IC"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="bm_EI">
+            <div class="bm_EJ">
+                <div class="bm_AC">
+                    <nav class="bm_FN">
+                        <div>
+                            <ul class="bm_FO">
+                                <li class="bm_EL bm_EO"><button class="bm_BP undefined" tabindex="0" type="button"
+                                        aria-label="Button"><i class="bm_BE bm_Hb"></i></button></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <div class="bm_Iu">
+                        <div class="bm_AC">
+                            <ul class="bm_BJ"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bm_AR">
+            <div class="bm_j bm_AI">
+                <div class="bm_AC">
+                    <div class="bm_Fu">
+                        <div class="bm_Fv bm_AM">
+                            <div class="bm_Jc">
+                                <div class="bm_E">
+                                    <div class="bm_L"><span><a
+                                                href="/vuot-moc-26-000-dong-lit-sau-khi-tang-gan-1-000-dong-lit-gia-xang-xac-lap-ky-luc-moi/c/41820365.epi"
+                                                class=""
+                                                title="Vượt mốc 26.000 đồng/lít sau khi tăng gần 1.000 đồng/lít, giá xăng xác lập kỷ lục mới"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <figure class="bm_Bi">
+                                                    <img 
+                                                        alt="Vượt mốc 26.000 đồng/lít sau khi tăng gần 1.000 đồng/lít, giá xăng xác lập kỷ lục mới" />
+                                                </figure>
+                                            </a></span></div>
+                                    <div class="bm_AP">
+                                        <div class="bm_M">
+                                            <h4 class="bm_O"><span><a
+                                                        href="/vuot-moc-26-000-dong-lit-sau-khi-tang-gan-1-000-dong-lit-gia-xang-xac-lap-ky-luc-moi/c/41820365.epi"
+                                                        class=""
+                                                        title="Vượt mốc 26.000 đồng/lít sau khi tăng gần 1.000 đồng/lít, giá xăng xác lập kỷ lục mới"
+                                                        target="_blank" rel="noopener noreferrer">Vượt mốc 26.000
+                                                        đồng/lít sau khi tăng gần 1.000 đồng/lít, giá xăng xác lập kỷ
+                                                        lục mới</a></span></h4>
+                                        </div>
+                                        <div class="bm_T"><a href="/bao-nguoi-lao-dong/p/15.epi" class="bm_g"
+                                                title="Báo Người Lao Động">
+                                                <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Báo Người Lao Động" /></figure>
+                                            </a><time dateTime="2022-02-21T15:31:11+07:00">39 phút</time><a
+                                                href="/gia-xang/t/8133736.epi" class="bm_F"><span>1475
+                                                    <!-- --> liên quan
+                                                </span></a><a
+                                                href="/vuot-moc-26-000-dong-lit-sau-khi-tang-gan-1-000-dong-lit-gia-xang-xac-lap-ky-luc-moi/c/41820365.epi"
+                                                class="bm_Ec"
+                                                title="Vượt mốc 26.000 đồng/lít sau khi tăng gần 1.000 đồng/lít, giá xăng xác lập kỷ lục mới"><i
+                                                    class="bm_Y bm_Gw"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bm_Je">
+                                <div class="bm_E bm_BR">
+                                    <div class="bm_L"><span><a
+                                                href="/moi-nhat-f1-tiem-2-mui-vaccine-covid-19-chi-cach-ly-5-ngay-xet-nghiem-1-lan/c/41820527.epi"
+                                                class=""
+                                                title="Mới nhất: F1 tiêm 2 mũi vaccine COVID-19 chỉ cách ly 5 ngày, xét nghiệm 1 lần"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <figure class="bm_Bi bm_BL"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Mới nhất: F1 tiêm 2 mũi vaccine COVID-19 chỉ cách ly 5 ngày, xét nghiệm 1 lần" />
+                                                </figure>
+                                            </a></span></div>
+                                    <div class="bm_AP">
+                                        <div class="bm_M">
+                                            <h4 class="bm_O"><span><a
+                                                        href="/moi-nhat-f1-tiem-2-mui-vaccine-covid-19-chi-cach-ly-5-ngay-xet-nghiem-1-lan/c/41820527.epi"
+                                                        class=""
+                                                        title="Mới nhất: F1 tiêm 2 mũi vaccine COVID-19 chỉ cách ly 5 ngày, xét nghiệm 1 lần"
+                                                        target="_blank" rel="noopener noreferrer">Mới nhất: F1 tiêm 2
+                                                        mũi vaccine COVID-19 chỉ cách ly 5 ngày, xét nghiệm 1
+                                                        lần</a></span></h4>
+                                        </div>
+                                        <div class="bm_T"><a href="/bao-suc-khoe-doi-song/p/94.epi" class="bm_g"
+                                                title="Báo Sức Khỏe &amp; Đời Sống">
+                                                <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Báo Sức Khỏe &amp; Đời Sống" /></figure>
+                                            </a><time dateTime="2022-02-21T15:54:00+07:00">16 phút</time><a
+                                                href="/covid-19/t/20916154.epi" class="bm_F"><span>166
+                                                    <!-- --> liên quan
+                                                </span></a><a
+                                                href="/moi-nhat-f1-tiem-2-mui-vaccine-covid-19-chi-cach-ly-5-ngay-xet-nghiem-1-lan/c/41820527.epi"
+                                                class="bm_Ec"
+                                                title="Mới nhất: F1 tiêm 2 mũi vaccine COVID-19 chỉ cách ly 5 ngày, xét nghiệm 1 lần"><i
+                                                    class="bm_Y bm_Gw"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="bm_E bm_BU  bm_BR">
+                                    <div class="bm_L"><span><a
+                                                href="/hai-cuoc-song-doi-lap-tai-ukraine-khi-nguy-co-xung-dot-leo-thang/c/41819656.epi"
+                                                class=""
+                                                title="Hai cuộc sống đối lập tại Ukraine khi nguy cơ xung đột leo thang"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <figure class="bm_Bi bm_BL"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Hai cuộc sống đối lập tại Ukraine khi nguy cơ xung đột leo thang" />
+                                                </figure>
+                                            </a></span></div>
+                                    <div class="bm_AP">
+                                        <div class="bm_M">
+                                            <h4 class="bm_O"><span><a
+                                                        href="/hai-cuoc-song-doi-lap-tai-ukraine-khi-nguy-co-xung-dot-leo-thang/c/41819656.epi"
+                                                        class=""
+                                                        title="Hai cuộc sống đối lập tại Ukraine khi nguy cơ xung đột leo thang"
+                                                        target="_blank" rel="noopener noreferrer">Hai cuộc sống đối lập
+                                                        tại Ukraine khi nguy cơ xung đột leo thang</a></span></h4>
+                                        </div>
+                                        <div class="bm_T"><a href="/bao-tin-tuc-ttxvn/p/294.epi" class="bm_g"
+                                                title="Báo Tin Tức TTXVN">
+                                                <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Báo Tin Tức TTXVN" /></figure>
+                                            </a><time dateTime="2022-02-21T14:39:00+07:00">2 giờ</time><a
+                                                href="/hai-cuoc-song-doi-lap-tai-ukraine-khi-nguy-co-xung-dot-leo-thang/c/41819656.epi"
+                                                class="bm_Ec"
+                                                title="Hai cuộc sống đối lập tại Ukraine khi nguy cơ xung đột leo thang"><i
+                                                    class="bm_Y bm_Gw"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="bm_E bm_BT  bm_BR">
+                                    <div class="bm_L"><span><a
+                                                href="/du-khach-thich-thu-ngam-bang-gia-phu-trang-dinh-deo-o-quy-ho/c/41820573.epi"
+                                                class=""
+                                                title="Du khách thích thú ngắm băng giá phủ trắng đỉnh đèo Ô Quý Hồ"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <figure class="bm_Bi bm_BL"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Du khách thích thú ngắm băng giá phủ trắng đỉnh đèo Ô Quý Hồ" />
+                                                </figure>
+                                            </a></span></div>
+                                    <div class="bm_AP">
+                                        <div class="bm_M">
+                                            <h4 class="bm_O"><span><a
+                                                        href="/du-khach-thich-thu-ngam-bang-gia-phu-trang-dinh-deo-o-quy-ho/c/41820573.epi"
+                                                        class=""
+                                                        title="Du khách thích thú ngắm băng giá phủ trắng đỉnh đèo Ô Quý Hồ"
+                                                        target="_blank" rel="noopener noreferrer">Du khách thích thú
+                                                        ngắm băng giá phủ trắng đỉnh đèo Ô Quý Hồ</a></span></h4>
+                                        </div>
+                                        <div class="bm_T"><a href="/bao-vietnamplus/p/293.epi" class="bm_g"
+                                                title="Báo VietnamPlus">
+                                                <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                        alt="Báo VietnamPlus" /></figure>
+                                            </a><time dateTime="2022-02-21T15:53:00+07:00">17 phút</time><a
+                                                href="/du-khach-thich-thu-ngam-bang-gia-phu-trang-dinh-deo-o-quy-ho/c/41820573.epi"
+                                                class="bm_Ec"
+                                                title="Du khách thích thú ngắm băng giá phủ trắng đỉnh đèo Ô Quý Hồ"><i
+                                                    class="bm_Y bm_Gw"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display:block">
+                                <div id="BaoMoi_MastheadInline"></div>
+                            </div>
+                        </div>
+                        <div class="bm_Fv bm_Fw">
+                            <aside class="bm_AH bm_At">
+                                <div class="bm_j bm_GE">
+                                    <div class="bm_AN bm_Eo">
+                                        <div class="bm_E">
+                                            <div class="bm_L"><span><a
+                                                        href="/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-chi-ro-nhung-kinh-nghiem-van-dung-sang-tao-chu-nghia-mac-lenin/c/39734962.epi"
+                                                        class=""
+                                                        title="Bài viết của Tổng Bí thư Nguyễn Phú Trọng chỉ rõ những kinh nghiệm vận dụng sáng tạo chủ nghĩa Mác-Lenin"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Bài viết của Tổng Bí thư Nguyễn Phú Trọng chỉ rõ những kinh nghiệm vận dụng sáng tạo chủ nghĩa Mác-Lenin" />
+                                                        </figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-chi-ro-nhung-kinh-nghiem-van-dung-sang-tao-chu-nghia-mac-lenin/c/39734962.epi"
+                                                                class=""
+                                                                title="Bài viết của Tổng Bí thư Nguyễn Phú Trọng chỉ rõ những kinh nghiệm vận dụng sáng tạo chủ nghĩa Mác-Lenin"
+                                                                target="_blank" rel="noopener noreferrer">Bài viết của
+                                                                Tổng Bí thư Nguyễn Phú Trọng chỉ rõ những kinh nghiệm
+                                                                vận dụng sáng tạo chủ nghĩa Mác-Lenin</a></span></h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-tin-tuc-ttxvn/p/294.epi" class="bm_g"
+                                                        title="Báo Tin Tức TTXVN">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo Tin Tức TTXVN" /></figure>
+                                                    </a><a
+                                                        href="/cuon-sach-cua-tong-bi-thu-nguyen-phu-trong/t/20229316.epi"
+                                                        class="bm_F"><span>187
+                                                            <!-- --> liên quan
+                                                        </span></a><a
+                                                        href="/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-chi-ro-nhung-kinh-nghiem-van-dung-sang-tao-chu-nghia-mac-lenin/c/39734962.epi"
+                                                        class="bm_Ec"
+                                                        title="Bài viết của Tổng Bí thư Nguyễn Phú Trọng chỉ rõ những kinh nghiệm vận dụng sáng tạo chủ nghĩa Mác-Lenin"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bm_j">
+                                    <div class="bm_AN bm_Eo">
+                                        <div class="bm_E bm_BU ">
+                                            <div class="bm_L"><span><a
+                                                        href="/sapa-am-3-do-c-bang-phu-trang-o-quy-ho/c/41820646.epi"
+                                                        class="" title="Sapa âm 3 độ C Băng phủ trắng Ô Quý Hồ"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Sapa âm 3 độ C Băng phủ trắng Ô Quý Hồ" /></figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/sapa-am-3-do-c-bang-phu-trang-o-quy-ho/c/41820646.epi"
+                                                                class="" title="Sapa âm 3 độ C Băng phủ trắng Ô Quý Hồ"
+                                                                target="_blank" rel="noopener noreferrer">Sapa âm 3 độ C
+                                                                Băng phủ trắng Ô Quý Hồ</a></span></h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-vov/p/65.epi" class="bm_g"
+                                                        title="Báo VOV">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo VOV" /></figure>
+                                                    </a><time dateTime="2022-02-21T16:02:00+07:00">8 phút</time><a
+                                                        href="/sapa-am-3-do-c-bang-phu-trang-o-quy-ho/c/41820646.epi"
+                                                        class="bm_Ec" title="Sapa âm 3 độ C Băng phủ trắng Ô Quý Hồ"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="bm_E">
+                                            <div class="bm_L"><span><a
+                                                        href="/thong-nhat-viec-mo-cua-lai-truong-hoc-tren-toan-quoc/c/41820674.epi"
+                                                        class=""
+                                                        title="Thống nhất việc mở cửa lại trường học trên toàn quốc"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Thống nhất việc mở cửa lại trường học trên toàn quốc" />
+                                                        </figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/thong-nhat-viec-mo-cua-lai-truong-hoc-tren-toan-quoc/c/41820674.epi"
+                                                                class=""
+                                                                title="Thống nhất việc mở cửa lại trường học trên toàn quốc"
+                                                                target="_blank" rel="noopener noreferrer">Thống nhất
+                                                                việc mở cửa lại trường học trên toàn quốc</a></span>
+                                                    </h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-tien-phong/p/20.epi" class="bm_g"
+                                                        title="Báo Tiền Phong">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo Tiền Phong" /></figure>
+                                                    </a><time dateTime="2022-02-21T16:02:00+07:00">8 phút</time><a
+                                                        href="/vu-duc-dam/t/24456001.epi" class="bm_F"><span>21
+                                                            <!-- --> liên quan
+                                                        </span></a><a
+                                                        href="/thong-nhat-viec-mo-cua-lai-truong-hoc-tren-toan-quoc/c/41820674.epi"
+                                                        class="bm_Ec"
+                                                        title="Thống nhất việc mở cửa lại trường học trên toàn quốc"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="bm_E bm_BT ">
+                                            <div class="bm_L"><span><a
+                                                        href="/dinh-chi-sinh-hoat-dang-giam-doc-va-ke-toan-truong-cdc-tinh-tt-hue/c/41820614.epi"
+                                                        class=""
+                                                        title="Đình chỉ sinh hoạt Đảng giám đốc và kế toán trưởng CDC tỉnh TT-Huế"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Đình chỉ sinh hoạt Đảng giám đốc và kế toán trưởng CDC tỉnh TT-Huế" />
+                                                        </figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/dinh-chi-sinh-hoat-dang-giam-doc-va-ke-toan-truong-cdc-tinh-tt-hue/c/41820614.epi"
+                                                                class=""
+                                                                title="Đình chỉ sinh hoạt Đảng giám đốc và kế toán trưởng CDC tỉnh TT-Huế"
+                                                                target="_blank" rel="noopener noreferrer">Đình chỉ sinh
+                                                                hoạt Đảng giám đốc và kế toán trưởng CDC tỉnh
+                                                                TT-Huế</a></span></h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-tien-phong/p/20.epi" class="bm_g"
+                                                        title="Báo Tiền Phong">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo Tiền Phong" /></figure>
+                                                    </a><time dateTime="2022-02-21T16:00:00+07:00">10 phút</time><a
+                                                        href="/dinh-chi-sinh-hoat-dang-giam-doc-va-ke-toan-truong-cdc-tinh-tt-hue/c/41820614.epi"
+                                                        class="bm_Ec"
+                                                        title="Đình chỉ sinh hoạt Đảng giám đốc và kế toán trưởng CDC tỉnh TT-Huế"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="bm_E">
+                                            <div class="bm_L"><span><a
+                                                        href="/u23-viet-nam-goi-bo-sung-6-cau-thu-truoc-tran-dau-u23-thai-lan/c/41820661.epi"
+                                                        class=""
+                                                        title="U23 Việt Nam gọi bổ sung 6 cầu thủ trước trận đấu U23 Thái Lan"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="U23 Việt Nam gọi bổ sung 6 cầu thủ trước trận đấu U23 Thái Lan" />
+                                                        </figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/u23-viet-nam-goi-bo-sung-6-cau-thu-truoc-tran-dau-u23-thai-lan/c/41820661.epi"
+                                                                class=""
+                                                                title="U23 Việt Nam gọi bổ sung 6 cầu thủ trước trận đấu U23 Thái Lan"
+                                                                target="_blank" rel="noopener noreferrer">U23 Việt Nam
+                                                                gọi bổ sung 6 cầu thủ trước trận đấu U23 Thái
+                                                                Lan</a></span></h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-vov/p/65.epi" class="bm_g"
+                                                        title="Báo VOV">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo VOV" /></figure>
+                                                    </a><time dateTime="2022-02-21T16:00:00+07:00">10 phút</time><a
+                                                        href="/u23-viet-nam-goi-bo-sung-6-cau-thu-truoc-tran-dau-u23-thai-lan/c/41820661.epi"
+                                                        class="bm_Ec"
+                                                        title="U23 Việt Nam gọi bổ sung 6 cầu thủ trước trận đấu U23 Thái Lan"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="bm_E">
+                                            <div class="bm_L"><span><a
+                                                        href="/truong-ban-tuyen-giao-trung-uong-tham-dong-vien-cac-y-bac-si-tai-ha-noi/c/41820623.epi"
+                                                        class=""
+                                                        title="Trưởng Ban Tuyên giáo Trung ương thăm, động viên các y bác sĩ tại Hà Nội"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Trưởng Ban Tuyên giáo Trung ương thăm, động viên các y bác sĩ tại Hà Nội" />
+                                                        </figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/truong-ban-tuyen-giao-trung-uong-tham-dong-vien-cac-y-bac-si-tai-ha-noi/c/41820623.epi"
+                                                                class=""
+                                                                title="Trưởng Ban Tuyên giáo Trung ương thăm, động viên các y bác sĩ tại Hà Nội"
+                                                                target="_blank" rel="noopener noreferrer">Trưởng Ban
+                                                                Tuyên giáo Trung ương thăm, động viên các y bác sĩ tại
+                                                                Hà Nội</a></span></h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-vov/p/65.epi" class="bm_g"
+                                                        title="Báo VOV">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo VOV" /></figure>
+                                                    </a><time dateTime="2022-02-21T15:58:00+07:00">12 phút</time><a
+                                                        href="/nguyen-trong-nghia/t/22517391.epi" class="bm_F"><span>144
+                                                            <!-- --> liên quan
+                                                        </span></a><a
+                                                        href="/truong-ban-tuyen-giao-trung-uong-tham-dong-vien-cac-y-bac-si-tai-ha-noi/c/41820623.epi"
+                                                        class="bm_Ec"
+                                                        title="Trưởng Ban Tuyên giáo Trung ương thăm, động viên các y bác sĩ tại Hà Nội"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="bm_E">
+                                            <div class="bm_L"><span><a
+                                                        href="/cuu-ngoai-truong-my-pompeo-sap-tham-dai-loan/c/41820603.epi"
+                                                        class="" title="Cựu Ngoại trưởng Mỹ Pompeo sắp thăm Đài Loan"
+                                                        target="_blank" rel="noopener noreferrer">
+                                                        <figure class="bm_Bi bm_BL"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Cựu Ngoại trưởng Mỹ Pompeo sắp thăm Đài Loan" />
+                                                        </figure>
+                                                    </a></span></div>
+                                            <div class="bm_AP">
+                                                <div class="bm_M">
+                                                    <h4 class="bm_O"><span><a
+                                                                href="/cuu-ngoai-truong-my-pompeo-sap-tham-dai-loan/c/41820603.epi"
+                                                                class=""
+                                                                title="Cựu Ngoại trưởng Mỹ Pompeo sắp thăm Đài Loan"
+                                                                target="_blank" rel="noopener noreferrer">Cựu Ngoại
+                                                                trưởng Mỹ Pompeo sắp thăm Đài Loan</a></span></h4>
+                                                </div>
+                                                <div class="bm_T"><a href="/bao-phap-luat-tp-hcm/p/114.epi" class="bm_g"
+                                                        title="Báo Pháp Luật TP.HCM">
+                                                        <figure class="bm_Bi bm_BL" aria-label="Logo nhà xuất bản"><img
+                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                                                alt="Báo Pháp Luật TP.HCM" /></figure>
+                                                    </a><time dateTime="2022-02-21T15:57:58+07:00">12 phút</time><a
+                                                        href="/cuu-ngoai-truong-my-pompeo-sap-tham-dai-loan/c/41820603.epi"
+                                                        class="bm_Ec"
+                                                        title="Cựu Ngoại trưởng Mỹ Pompeo sắp thăm Đài Loan"><i
+                                                            class="bm_Y bm_Gw"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <script id="__NEXT_DATA__"
+        type="application/json">{"props":{"pageProps":{"resp":{"err":0,"msg":"Success","data":{"page":"homepage","categoryIdOfPage":0,"categoryShortUrl":"","head":{"meta":{"title":"Báo Mới - Tin tức nóng nhất, tin tức mới nhất cập nhật liên tục 24H - BAOMOI.COM","ogTitle":"Báo Mới - Tin tức nóng nhất, tin tức mới nhất cập nhật liên tục 24H","description":"Báo Mới - Trang tin tự động cập nhật các tin tức Việt Nam và thế giới từ các  báo và  trang tin điện tử hàng đầu","keywords":"báo mới, baomoi, bao moi, tin tức, tin tuc, tổng hợp tin tức, cập nhật, báo điện tử, mới, nóng, nhanh, hot, Việt Nam, thế giới, biển đông, hà nội, tp hcm, sài gòn, xã hội, văn hóa, kinh tế, khoa học, công nghệ, thể thao, bóng đá, giải trí, pháp luật, giáo dục, sức khỏe,  ô tô, xe máy, nhà đất.","url":"/","ogUrl":"/"},"jsonLd":[{"name":"Báo Mới - Tin tức nóng nhất, tin tức mới nhất cập nhật liên tục 24H","alternateName":"Báo Mới - Trang tin tự động cập nhật các tin tức Việt Nam và thế giới từ các  báo và  trang tin điện tử hàng đầu","url":"/","@context":"http://schema.org","@type":"WebSite"}]},"ad":{"zoneIds":["118270509207484724","686299738197686582","1254265109614131464","1822276677698812170","2390303621766412556","1136489259452549284","1775562465903865510","2344090787273731768"],"isNoAd":false,"masthead":{"elId":"BaoMoi_Masthead","url":"/slave/ad/get/masthead","params":{"zoneId":"838809384018992578","page":1,"id":0,"userAgent":"mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.102 safari/537.36"}},"adtimaConfig":{"contentId":"zonearticle-web_-1_c_0"}},"showMenu":true,"content":{"sections":[{"title":"","link":"","sectionId":200,"tracking":"|hotnews","items":[{"id":41820365,"contentId":41820365,"title":"Vượt mốc 26.000 đồng/lít sau khi tăng gần 1.000 đồng/lít, giá xăng xác lập kỷ lục mới","description":"Giá bán lẻ các mặt hàng xăng dầu đồng loạt tăng lần thứ 5 liên tiếp, trong đó giá xăng RON95 tăng 965 đồng/lít, có giá bán 26.287 đồng/lít.","date":1645432271,"url":"/vuot-moc-26-000-dong-lit-sau-khi-tang-gan-1-000-dong-lit-gia-xang-xac-lap-ky-luc-moi/c/41820365.epi#|hotnews|index0","redirectUrl":"/vuot-moc-26-000-dong-lit-sau-khi-tang-gan-1-000-dong-lit-gia-xang-xac-lap-ky-luc-moi/r/41820365.epi#|hotnews|index0","thumb":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_15_41820365/db5de25f791d9043c90c.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_15_41820365/db5de25f791d9043c90c.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/0b89da8919caf094a9db.png","icon":"https://photo-baomoi.zadn.vn/593e910e734d9a13c35c.png","url":"/bao-nguoi-lao-dong/p/15.epi","name":"Báo Người Lao Động"},"index":0,"cluster":{"id":8133736,"objectType":5,"name":"Giá Xăng","url":"/gia-xang/t/8133736.epi","total":1475}},{"id":41820527,"contentId":41820527,"title":"Mới nhất: F1 tiêm 2 mũi vaccine COVID-19 chỉ cách ly 5 ngày, xét nghiệm 1 lần","description":"Đây là nội dung trong công văn mới nhất do Bộ Y tế ban hành chiều 21/2 về việc cách ly y tế đối với F0 và F1.","date":1645433640,"url":"/moi-nhat-f1-tiem-2-mui-vaccine-covid-19-chi-cach-ly-5-ngay-xet-nghiem-1-lan/c/41820527.epi#|hotnews|index1","redirectUrl":"/moi-nhat-f1-tiem-2-mui-vaccine-covid-19-chi-cach-ly-5-ngay-xet-nghiem-1-lan/r/41820527.epi#|hotnews|index1","thumb":"https://photo-baomoi.zadn.vn/w300_r3x2_sm/2022_02_21_94_41820527/209f7182eac0039e5ad1.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_94_41820527/209f7182eac0039e5ad1.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/87bb25544116a848f107.png","icon":"https://photo-baomoi.zadn.vn/9d9c7ba810eaf9b4a0fb.png","url":"/bao-suc-khoe-doi-song/p/94.epi","name":"Báo Sức Khỏe \u0026 Đời Sống"},"index":1,"cluster":{"id":21238509,"objectType":5,"name":"#COVID-19","url":"/covid-19/t/20916154.epi","total":166}},{"id":41819656,"contentId":41819656,"title":"Hai cuộc sống đối lập tại Ukraine khi nguy cơ xung đột leo thang","description":"Trong bối cảnh phương Tây cảnh báo về một cuộc tấn công quân sự nhằm vào Ukraine, nhiều người Ukraine đã tham gia các cuộc diễn tập quân sự để chuẩn bị cho chiến tranh. Trong khi đó, tại nhiều khu vực khác, cuộc sống vẫn diễn ra như bình thường.","date":1645429140,"url":"/hai-cuoc-song-doi-lap-tai-ukraine-khi-nguy-co-xung-dot-leo-thang/c/41819656.epi#|hotnews|index2","redirectUrl":"/hai-cuoc-song-doi-lap-tai-ukraine-khi-nguy-co-xung-dot-leo-thang/r/41819656.epi#|hotnews|index2","thumb":"https://photo-baomoi.zadn.vn/w300_r3x2/2022_02_21_294_41819656/945cf959621b8b45d20a.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9/2022_02_21_294_41819656/945cf959621b8b45d20a.jpg","contentTypes":[2,1],"classNames":" is-video is-photo","publisher":{"logo":"https://photo-baomoi.zadn.vn/bb071048550abc54e51b.png","icon":"https://photo-baomoi.zadn.vn/34aa9b9d79de9080c9cf.png","url":"/bao-tin-tuc-ttxvn/p/294.epi","name":"Báo Tin Tức TTXVN"},"index":2,"cluster":{"id":25507229,"objectType":5,"name":"Tin liên quan","url":"/tin-lien-quan/t/25507229.epi","total":0}},{"id":41820573,"contentId":41820573,"title":"Du khách thích thú ngắm băng giá phủ trắng đỉnh đèo Ô Quý Hồ","description":"Tại đỉnh đèo Ô Quý Hồ nơi giáp xã Sơn Bình, huyện Tam Đường (Lai Châu) với thị xã Sa Pa (Lào Cai) xuất hiện băng giá và thu hút đông đảo khách du lịch đến check in chụp ảnh.","date":1645433580,"url":"/du-khach-thich-thu-ngam-bang-gia-phu-trang-dinh-deo-o-quy-ho/c/41820573.epi#|hotnews|index3","redirectUrl":"/du-khach-thich-thu-ngam-bang-gia-phu-trang-dinh-deo-o-quy-ho/r/41820573.epi#|hotnews|index3","thumb":"https://photo-baomoi.zadn.vn/w300_r3x2/2022_02_21_293_41820573/7d37be2a2568cc369579.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9/2022_02_21_293_41820573/7d37be2a2568cc369579.jpg","contentTypes":[1],"classNames":" is-photo","publisher":{"logo":"https://photo-baomoi.zadn.vn/d1c2f8ad25eeccb095ff.png","icon":"https://photo-baomoi.zadn.vn/67f3f2c31080f9dea091.png","url":"/bao-vietnamplus/p/293.epi","name":"Báo VietnamPlus"},"index":3}],"displayTimeIn":43200},{"zoneId":"BaoMoi_MastheadInline","id":"BaoMoi_MastheadInline","elId":"BaoMoi_MastheadInline","type":"adBanner","sectionType":"ad","sectionId":170},{"title":"","link":"","sectionId":300,"options":{"more":{"url":"/section/get/list-for-home-page","params":{"lastTime":1645434603325}}}}]},"sidebar":[{"title":"","link":"","sectionId":121,"tracking":"|newest_box","items":[{"id":39734962,"contentId":39734962,"title":"Bài viết của Tổng Bí thư Nguyễn Phú Trọng chỉ rõ những kinh nghiệm vận dụng sáng tạo chủ nghĩa Mác-Lenin","description":"Trao đổi với phóng viên TTXVN tại Đức, nhà sử học, nhà báo kỳ cựu người Đức Gerhard Feldbauer đánh giá bài viết 'Một số vấn đề lý luận và thực tiễn về chủ nghĩa xã hội và con đường đi lên chủ nghĩa xã hội ở Việt Nam' của Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam Nguyễn Phú Trọng có ý nghĩa to lớn.","date":1627888320,"url":"/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-chi-ro-nhung-kinh-nghiem-van-dung-sang-tao-chu-nghia-mac-lenin/c/39734962.epi#|newest_box|index5","redirectUrl":"/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-chi-ro-nhung-kinh-nghiem-van-dung-sang-tao-chu-nghia-mac-lenin/r/39734962.epi#|newest_box|index5","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2021_08_02_294_39734962/7b3fa475ab3742691b26.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2021_08_02_294_39734962/7b3fa475ab3742691b26.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/bb071048550abc54e51b.png","icon":"https://photo-baomoi.zadn.vn/34aa9b9d79de9080c9cf.png","url":"/bao-tin-tuc-ttxvn/p/294.epi","name":"Báo Tin Tức TTXVN"},"index":5,"cluster":{"id":20229316,"objectType":5,"name":"Cuốn sách của Tổng Bí thư Nguyễn Phú Trọng","url":"/cuon-sach-cua-tong-bi-thu-nguyen-phu-trong/t/20229316.epi","total":187}},{"id":41661547,"contentId":41661547,"title":"Quyết tâm đẩy lùi tham nhũng, tiêu cực","description":"Đánh giá công tác phòng chống tham nhũng, tiêu cực trong năm 2021, Tổng Bí thư Nguyễn Phú Trọng cho rằng trong năm, công tác này đạt nhiều kết quả rõ rệt, có mặt cao hơn năm trước, khẳng định quyết tâm mạnh mẽ, không ngừng, không nghỉ.","date":1643687912,"url":"/quyet-tam-day-lui-tham-nhung-tieu-cuc/c/41661547.epi","redirectUrl":"/quyet-tam-day-lui-tham-nhung-tieu-cuc/r/41661547.epi","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2022_02_01_15_41661547/b2c796d00a92e3ccba83.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_01_15_41661547/b2c796d00a92e3ccba83.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/0b89da8919caf094a9db.png","icon":"https://photo-baomoi.zadn.vn/593e910e734d9a13c35c.png","url":"/bao-nguoi-lao-dong/p/15.epi","name":"Báo Người Lao Động"},"index":0,"cluster":{"id":24517370,"objectType":5,"name":"#Công ty Việt Á","url":"/cong-ty-viet-a/t/24517370.epi","total":51}},{"id":40191247,"contentId":40191247,"title":"Bài viết của Tổng Bí thư Nguyễn Phú Trọng tiếp thêm niềm tin về con đường đi lên chủ nghĩa xã hội","description":"Đất nước Việt Nam đi lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, trong đó có sự lựa chọn kỹ lưỡng, đúng đắn, tiếp tục, kế thừa những thành tựu và khoa học, kỹ thuật, công nghệ tiên tiến đã đạt được của chế độ tư bản chủ nghĩa và của nhân loại để phát triển nhanh lực lượng sản xuất và xây dựng một nền kinh tế hiện đại.","date":1631352727,"url":"/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-tiep-them-niem-tin-ve-con-duong-di-len-chu-nghia-xa-hoi/c/40191247.epi","redirectUrl":"/bai-viet-cua-tong-bi-thu-nguyen-phu-trong-tiep-them-niem-tin-ve-con-duong-di-len-chu-nghia-xa-hoi/r/40191247.epi","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1/2021_09_11_14_40191247/64ffe69bbed957870ec8.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9/2021_09_11_14_40191247/64ffe69bbed957870ec8.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/4e023e6de32e0a70533f.png","icon":"https://photo-baomoi.zadn.vn/a98a8fba6df984a7dde8.png","url":"/bao-nhan-dan/p/14.epi","name":"Báo Nhân Dân"},"index":2,"cluster":{"id":20229316,"objectType":5,"name":"Cuốn sách của Tổng Bí thư Nguyễn Phú Trọng","url":"/cuon-sach-cua-tong-bi-thu-nguyen-phu-trong/t/20229316.epi","total":187}},{"id":40072164,"contentId":40072164,"title":"Lời hiệu triệu của Tổng Bí thư và sức mạnh toàn dân tộc","description":"76 năm sau ngày Ðộc lập (2/9/1945 - 2/9/2021), đất nước đang đứng trước muôn vàn khó khăn, thử thách do tác động của đại dịch COVID-19. Trong bối cảnh đó, thực hiện lời kêu gọi của Tổng Bí thư Nguyễn Phú Trọng, toàn đảng, toàn quân và toàn dân đang phát huy truyền thống tương thân, tương ái, đoàn kết một lòng để ngăn chặn, đẩy lùi bằng được, không để dịch lan rộng, bùng phát trong cộng đồng.","date":1630453140,"url":"/loi-hieu-trieu-cua-tong-bi-thu-va-suc-manh-toan-dan-toc/c/40072164.epi","redirectUrl":"/loi-hieu-trieu-cua-tong-bi-thu-va-suc-manh-toan-dan-toc/r/40072164.epi","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1/2021_09_01_20_40072164/dc03b16ed22c3b72623d.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9/2021_09_01_20_40072164/dc03b16ed22c3b72623d.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/b3a88dc75084b9dae095.png","icon":"https://photo-baomoi.zadn.vn/89c83ef8dcbb35e56caa.png","url":"/bao-tien-phong/p/20.epi","name":"Báo Tiền Phong"},"index":3,"cluster":{"id":20541636,"objectType":5,"name":"#đại đoàn kết toàn dân","url":"/dai-doan-ket-toan-dan/t/20541636.epi","total":6}},{"id":39995826,"contentId":39995826,"title":"Phát ngôn mạnh mẽ của Tổng bí thư về phòng, chống dịch","description":"Quán triệt xử lý nghiêm hành vi vi phạm, Tổng bí thư Nguyễn Phú Trọng yêu cầu thay thế kịp thời cán bộ yếu kém không hoàn thành nhiệm vụ phòng, chống dịch Covid-19.","date":1629874807,"url":"/phat-ngon-manh-me-cua-tong-bi-thu-ve-phong-chong-dich/c/39995826.epi","redirectUrl":"/phat-ngon-manh-me-cua-tong-bi-thu-ve-phong-chong-dich/r/39995826.epi","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1/2021_08_25_119_39995826/9b3736ae56ecbfb2e6fd.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9/2021_08_25_119_39995826/9b3736ae56ecbfb2e6fd.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/d59db7f26ab183efdaa0.png","icon":"https://photo-baomoi.zadn.vn/6d8571b593f67aa823e7.png","url":"/zing-tri-thuc-truc-tuyen/p/119.epi","name":"Zing - Tri thức trực tuyến"},"index":4,"cluster":{"id":20503061,"objectType":5,"name":"#Nguyễn Phú Trọng","url":"/nguyen-phu-trong/t/20503061.epi","total":169}},{"id":40753813,"contentId":40753813,"title":"Bài viết của Tổng Bí thư là định hướng chiến lược mang tính thời đại","description":"Theo ông Khamvisanh Keosouvanh, nội dung bài viết của Tổng Bí thư Nguyễn Phú Trọng rất phù hợp với tình hình phát triển thực tế của Việt Nam cũng như của thế giới.","date":1635828720,"url":"/bai-viet-cua-tong-bi-thu-la-dinh-huong-chien-luoc-mang-tinh-thoi-dai/c/40753813.epi","redirectUrl":"/bai-viet-cua-tong-bi-thu-la-dinh-huong-chien-luoc-mang-tinh-thoi-dai/r/40753813.epi","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2021_11_02_293_40753813/79f57dac3aeed3b08aff.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2021_11_02_293_40753813/79f57dac3aeed3b08aff.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/d1c2f8ad25eeccb095ff.png","icon":"https://photo-baomoi.zadn.vn/67f3f2c31080f9dea091.png","url":"/bao-vietnamplus/p/293.epi","name":"Báo VietnamPlus"},"index":1,"cluster":{"id":20229316,"objectType":5,"name":"Cuốn sách của Tổng Bí thư Nguyễn Phú Trọng","url":"/cuon-sach-cua-tong-bi-thu-nguyen-phu-trong/t/20229316.epi","total":187}}],"isShuffle":false,"displayTimeIn":43200},{"title":"","link":"","sectionId":122,"tracking":"|newest_box","items":[{"id":41820646,"contentId":41820646,"title":"Sapa âm 3 độ C Băng phủ trắng Ô Quý Hồ","description":"Tại đỉnh đèo Ô Quý Hồ, nơi giáp ranh giữa 2 tỉnh Lào Cai và Lai Châu, nhiệt độ xuống thấp với mức -6 đến -2 độ vào sáng sớm 21/2, gây băng giá trắng xóa các cành cây, ngọn cỏ... Vì thế, dù là ngày đầu tuần song vẫn có rất đông du khách lên đây để chiêm ngưỡng khung cảnh hiếm có này.","date":1645434120,"url":"/sapa-am-3-do-c-bang-phu-trang-o-quy-ho/c/41820646.epi#|newest_box|index0","redirectUrl":"/sapa-am-3-do-c-bang-phu-trang-o-quy-ho/r/41820646.epi#|newest_box|index0","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2022_02_21_65_41820646/57a402b899fa70a429eb.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_65_41820646/57a402b899fa70a429eb.jpg","contentTypes":[2],"classNames":" is-video","publisher":{"logo":"https://photo-baomoi.zadn.vn/a1493a27e7640e3a5775.png","icon":"https://photo-baomoi.zadn.vn/181f472fa56c4c32157d.png","url":"/bao-vov/p/65.epi","name":"Báo VOV"},"index":0},{"zoneId":"1775562465903865510","id":"1775562465903865510","elId":"1775562465903865510","type":"adNative","url":"","redirectUrl":""},{"id":41820674,"contentId":41820674,"title":"Thống nhất việc mở cửa lại trường học trên toàn quốc","description":"Phó Thủ tướng Vũ Đức Đam yêu cầu Bộ Y tế khẩn trương xây dựng kế hoạch tiêm vắc xin cho trẻ em từ 5 đến dưới 12 tuổi; ban hành hướng dẫn việc xét nghiệm, cách ly đối với trẻ em, học sinh bảo đảm phù hợp, khoa học.","date":1645434120,"url":"/thong-nhat-viec-mo-cua-lai-truong-hoc-tren-toan-quoc/c/41820674.epi#|newest_box|index1","redirectUrl":"/thong-nhat-viec-mo-cua-lai-truong-hoc-tren-toan-quoc/r/41820674.epi#|newest_box|index1","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1/2022_02_21_20_41820674/5af9401e155cfc02a54d.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9/2022_02_21_20_41820674/5af9401e155cfc02a54d.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/b3a88dc75084b9dae095.png","icon":"https://photo-baomoi.zadn.vn/89c83ef8dcbb35e56caa.png","url":"/bao-tien-phong/p/20.epi","name":"Báo Tiền Phong"},"index":1,"cluster":{"id":25475679,"objectType":5,"name":"#Vũ Đức Đam","url":"/vu-duc-dam/t/24456001.epi","total":21}},{"zoneId":"1136489259452549284","id":"1136489259452549284","elId":"1136489259452549284","type":"adNative","url":"","redirectUrl":""},{"id":41820614,"contentId":41820614,"title":"Đình chỉ sinh hoạt Đảng giám đốc và kế toán trưởng CDC tỉnh TT-Huế","description":"Ông Hoàng Văn Đức, Giám đốc Trung tâm Kiểm soát bệnh tật (CDC) tỉnh TT-Huế, cùng một thuộc cấp đã bị đình chỉ sinh hoạt Đảng trong thời gian 90 ngày để phục vụ công tác điều tra, sau khi cả hai đối tượng vừa bị công an khởi tố, bắt tạm giam.","date":1645434000,"url":"/dinh-chi-sinh-hoat-dang-giam-doc-va-ke-toan-truong-cdc-tinh-tt-hue/c/41820614.epi#|newest_box|index2","redirectUrl":"/dinh-chi-sinh-hoat-dang-giam-doc-va-ke-toan-truong-cdc-tinh-tt-hue/r/41820614.epi#|newest_box|index2","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2022_02_21_20_41820614/9db5faa961eb88b5d1fa.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_20_41820614/9db5faa961eb88b5d1fa.jpg","contentTypes":[1],"classNames":" is-photo","publisher":{"logo":"https://photo-baomoi.zadn.vn/b3a88dc75084b9dae095.png","icon":"https://photo-baomoi.zadn.vn/89c83ef8dcbb35e56caa.png","url":"/bao-tien-phong/p/20.epi","name":"Báo Tiền Phong"},"index":2},{"zoneId":"2344090787273731768","id":"2344090787273731768","elId":"2344090787273731768","type":"adNative","url":"","redirectUrl":""},{"id":41820661,"contentId":41820661,"title":"U23 Việt Nam gọi bổ sung 6 cầu thủ trước trận đấu U23 Thái Lan","description":"U23 Việt Nam đón tin cực vui khi được 'chi viện' 6 cầu thủ từ Việt Nam bay sang Campuchia để chuẩn bị cho trận đấu với U23 Thái Lan.","date":1645434000,"url":"/u23-viet-nam-goi-bo-sung-6-cau-thu-truoc-tran-dau-u23-thai-lan/c/41820661.epi#|newest_box|index3","redirectUrl":"/u23-viet-nam-goi-bo-sung-6-cau-thu-truoc-tran-dau-u23-thai-lan/r/41820661.epi#|newest_box|index3","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2022_02_21_65_41820661/2cd4ed4c760e9f50c61f.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_65_41820661/2cd4ed4c760e9f50c61f.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/a1493a27e7640e3a5775.png","icon":"https://photo-baomoi.zadn.vn/181f472fa56c4c32157d.png","url":"/bao-vov/p/65.epi","name":"Báo VOV"},"index":3},{"id":41820623,"contentId":41820623,"title":"Trưởng Ban Tuyên giáo Trung ương thăm, động viên các y bác sĩ tại Hà Nội","description":"Ông Nguyễn Trọng Nghĩa ghi nhận nỗ lực cống hiến của đội ngũ thầy thuốc Bệnh viện Trung ương Quân đội 108, Bệnh viện Phổi Trung ương cũng như ngành y cả nước đã và đang là lực lượng tuyến đầu chống dịch.","date":1645433880,"url":"/truong-ban-tuyen-giao-trung-uong-tham-dong-vien-cac-y-bac-si-tai-ha-noi/c/41820623.epi#|newest_box|index4","redirectUrl":"/truong-ban-tuyen-giao-trung-uong-tham-dong-vien-cac-y-bac-si-tai-ha-noi/r/41820623.epi#|newest_box|index4","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2022_02_21_65_41820623/aa70d56c4e2ea770fe3f.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_65_41820623/aa70d56c4e2ea770fe3f.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/a1493a27e7640e3a5775.png","icon":"https://photo-baomoi.zadn.vn/181f472fa56c4c32157d.png","url":"/bao-vov/p/65.epi","name":"Báo VOV"},"index":4,"cluster":{"id":22517391,"objectType":5,"name":"#Nguyễn Trọng Nghĩa","url":"/nguyen-trong-nghia/t/22517391.epi","total":144}},{"id":41820603,"contentId":41820603,"title":"Cựu Ngoại trưởng Mỹ Pompeo sắp thăm Đài Loan","description":"Đài Loan coi chuyến thăm của ông Pompeo thể hiện sự ủng hộ vững chắc của lưỡng đảng Mỹ dành cho hòn đảo đang chịu nhiều áp lực quân sự và ngoại giao từ Trung Quốc.","date":1645433878,"url":"/cuu-ngoai-truong-my-pompeo-sap-tham-dai-loan/c/41820603.epi#|newest_box|index5","redirectUrl":"/cuu-ngoai-truong-my-pompeo-sap-tham-dai-loan/r/41820603.epi#|newest_box|index5","thumb":"https://photo-baomoi.zadn.vn/w300_r1x1_sm/2022_02_21_114_41820603/a2f8bbe420a6c9f890b7.jpg","thumbL":"https://photo-baomoi.zadn.vn/w700_r16x9_sm/2022_02_21_114_41820603/a2f8bbe420a6c9f890b7.jpg","classNames":"","publisher":{"logo":"https://photo-baomoi.zadn.vn/f12dd0420d01e45fbd10.png","icon":"https://photo-baomoi.zadn.vn/4938cd082f4bc6159f5a.png","url":"/bao-phap-luat-tp-hcm/p/114.epi","name":"Báo Pháp Luật TP.HCM"},"index":5}],"displayTimeIn":43200},{"sectionId":160,"url":"/app/get/sidebar","params":{"categoryId":0,"sectionIds":"110,119,111,112,120,114,106,104,105,102,113,103,118,121","pageType":1}}],"pageUrl":"/","adMasthead":{"elId":"BaoMoi_Masthead","zoneId":"838809384018992578","zoneAdaptive":"","adtimaConfig":{}}},"timestamp":1645434603329},"userAgent":"mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.102 safari/537.36","isBot":false},"__N_SSP":true},"page":"/home","query":{},"buildId":"LfMptrGwAr6HMn7EGheMr","assetPrefix":"https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5","isFallback":false,"gssp":true,"customServer":true}</script>
+    <script nomodule=""
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/polyfills-d21d25d30729c887ab96.js"></script>
+    <script src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/main-37e4e6bb83be37c7f49b.js"
+        async=""></script>
+    <script src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/webpack-3fbf6fefd803c0da2e8c.js"
+        async=""></script>
+    <script src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/framework.36e5d30ecc6dc4b81c51.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/da7b42b0de41bffead1e2448c4f5aa9361ab252d.99ce3115b6eed054039b.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/5f19495f71eaf8e9c15eca8defee098bc5b5a080.9bf7b7971489a200f3c6.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/b95500b72f9b9cb184905710f101fa2283e1d0d3.8da782e12b7788f5033a.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/914980c3def8c6577b20364a6a4ae6ae69e13da2.4796a60ada94d2b6c3c3.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/914980c3def8c6577b20364a6a4ae6ae69e13da2_CSS.a83a6a4548b93404854d.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/6ad0bd8aedc842ee5db207ca79c9134c90690b57.ff640ebb8c9d2154ada6.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/pages/_app-0a6902b18cea8e17165c.js"
+        async=""></script>
+    <script
+        src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/chunks/pages/home-69db138580f90a63697e.js"
+        async=""></script>
+    <script src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/LfMptrGwAr6HMn7EGheMr/_buildManifest.js"
+        async=""></script>
+    <script src="https://baomoi-static.zadn.vn/web-v2/prod/v0.2.5/_next/static/LfMptrGwAr6HMn7EGheMr/_ssgManifest.js"
+        async=""></script>
+</body>
+
+</html>
